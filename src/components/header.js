@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = ({ siteTitle }) => (
-  <Navbar  expand="md" className="bg-body-tertiary">
+  <Navbar  expand="lg" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand as={Link} to="/" className="">
           <StaticImage src="../images/mh_only_logo.svg" width={40} alt="logo" className="me-3 "/>
@@ -19,13 +19,9 @@ const Header = ({ siteTitle }) => (
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/interior">Interior Photos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/portfolio-property">Interior Photos</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/exterior">Exterior Photos</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/aerialImages">Aerial Photos</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/service-property">Property Photos</NavDropdown.Item>
@@ -36,7 +32,12 @@ const Header = ({ siteTitle }) => (
                 Separated link
               </NavDropdown.Item> */}
             </NavDropdown>
-            <Nav.Link as={Link} to="/about">About Me</Nav.Link>
+            <NavDropdown title="Info">
+              <NavDropdown.Item as={Link} to="/info-property-prep">Property Prep</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/info-terms">Terms of Service</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
