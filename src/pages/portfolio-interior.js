@@ -15,7 +15,7 @@ const portfolioInterior = ({data}) => {
     return node.childImageSharp
     }
   )
-  console.log("data:",data)
+  // console.log("data:",data)
   return (
     <Layout>
       <Container>
@@ -27,6 +27,7 @@ const portfolioInterior = ({data}) => {
             images={images}
             onClose={onClose}
             mdColWidth={20}
+            thumbAlt={"photo"}
         />
         {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
         
