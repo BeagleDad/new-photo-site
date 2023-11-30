@@ -23,7 +23,7 @@ export const Head = () => {
   return (
     <>
       <Seo title="Property Prep" />
-      <html data-bs-theme="dark"  />
+      <html lang="en" data-bs-theme="dark"  />
     </>
   )
 }
