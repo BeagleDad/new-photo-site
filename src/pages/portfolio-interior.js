@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 import Gallery from '@browniebroke/gatsby-image-gallery';
 import Seo from "../components/seo"
 
-const PortfolioProperty = ({data}) => {
+const portfolioInterior = ({data}) => {
     
   const onClose = () => {
     console.log('Lightbox was closed')
@@ -19,14 +19,14 @@ const PortfolioProperty = ({data}) => {
   return (
     <Layout>
       <Container>
-        <h2 className='text-center'>Property Photos</h2>
+        <h2 className='text-center'>Interior Photos</h2>
         <p>
           Interior Photos are the heart of the listing. They show off the beauty and features of the home. They should be bright and clear and composed to show the layout and living space.
         </p>
         <Gallery
             images={images}
             onClose={onClose}
-            
+            mdColWidth={20}
         />
         {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
         
@@ -51,5 +51,14 @@ export const query = graphql`
     }
   }
 `
-export const Head = () => <Seo title="Interior Photos" />
-export default PortfolioProperty
+
+export const Head = () => {
+  return (
+    <>
+      <Seo title="Interior Photos" />
+      <html data-bs-theme="dark"  />
+    </>
+  )
+}
+
+export default portfolioInterior

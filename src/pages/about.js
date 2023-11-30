@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from "../components/layout";
 import { Container } from 'react-bootstrap';
 import { StaticImage } from 'gatsby-plugin-image';
+import Seo from "../components/seo"
+
 const about = () => {
   return (
     <Layout>
@@ -19,6 +21,15 @@ const about = () => {
         
       </Container>
     </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+      <Seo title="About" />
+      <html data-bs-theme="dark"  />
+    </>
   )
 }
 

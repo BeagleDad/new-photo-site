@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from "../components/layout";
 import { Container } from 'react-bootstrap';
+import Seo from "../components/seo"
+
 const serviceProperty = () => {
   return (
     <Layout>
@@ -16,4 +18,12 @@ const serviceProperty = () => {
   )
 }
 
+export const Head = () => {
+  return (
+    <>
+      <Seo title="Property Services" />
+      <html data-bs-theme="dark"  />
+    </>
+  )
+}
 export default serviceProperty

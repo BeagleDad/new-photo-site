@@ -1,6 +1,9 @@
 import React from 'react'
 import Layout from "../components/layout";
 import { Container } from 'react-bootstrap';
+import Seo from "../components/seo"
+
+
 const serviceAerial = () => {
   return (
     <Layout>
@@ -13,6 +16,15 @@ const serviceAerial = () => {
         
       </Container>
     </Layout>
+  )
+}
+
+export const Head = () => {
+  return (
+    <>
+      <Seo title="Aerial Services" />
+      <html data-bs-theme="dark"  />
+    </>
   )
 }
 

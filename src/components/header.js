@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = ({ siteTitle }) => (
-  <Navbar  expand="lg" className="bg-body-tertiary">
+  <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand as={Link} to="/" className="">
           <StaticImage src="../images/mh_only_logo.svg" width={40} alt="logo" className="me-3 "/>
@@ -19,9 +19,9 @@ const Header = ({ siteTitle }) => (
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/portfolio-property">Interior Photos</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/exterior">Exterior Photos</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/aerialImages">Aerial Photos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/portfolio-interior">Interior</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/portfolio-exterior">Exterior</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/portfolio-aerial">Aerial</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/service-property">Property Photos</NavDropdown.Item>
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
               </NavDropdown.Item> */}
             </NavDropdown>
             <NavDropdown title="Info">
-              <NavDropdown.Item as={Link} to="/info-property-prep">Property Prep</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/info-prep">Property Prep</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/info-terms">Terms of Service</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
