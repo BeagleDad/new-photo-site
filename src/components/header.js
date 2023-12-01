@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
   <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand as={Link} to="/" className="">
-          <StaticImage src="../images/mh_only_logo.svg" width={40} alt="logo" className="me-3 "/>
+          <StaticImage src="../images/mh_logo_round.svg" width={40} alt="logo" className="me-3 "/>
           <Navbar.Text className="fs-3">Matt Hoffman Photography</Navbar.Text>
       </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

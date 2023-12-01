@@ -20,8 +20,8 @@ const portfolioInterior = ({data}) => {
     <Layout>
       <Container>
         <h2 className='text-center'>Interior Photos</h2>
-        <p>
-          Interior Photos are the heart of the listing. They show off the beauty and features of the home. They should be bright and clear and composed to show the layout and living space.
+        <p className='w-75 m-auto'>
+          Interior Photos are the heart of the listing. They show off the beauty and features of the home. They should be bright and clear and composed to clearly show the layout and living space.
         </p>
         <Gallery
             images={images}
