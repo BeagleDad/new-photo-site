@@ -4,8 +4,8 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'master',
-    repo: `https://github.com/BeagleDad/mhphoto_serena.git`
+    branch: 'main',
+    repo: `https://github.com/BeagleDad/new-photo-site.git`
   },
   () => {
     console.log('Deploy Complete!')
