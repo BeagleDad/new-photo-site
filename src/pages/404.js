@@ -14,7 +14,7 @@ export const Head = () => {
   return (
     <>
       <Seo title="404: Not Found" />
-      <html data-bs-theme="dark"  />
+      <html lang="en" data-bs-theme="dark"  />
     </>
   )
 }

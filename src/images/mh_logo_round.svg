@@ -4,7 +4,7 @@
    inkscape:export-xdpi="267.25006"
    inkscape:export-filename="/Users/matthewh/Documents/RE_Photo/mh_logo.png"
    sodipodi:docname="mh_logo_round.svg"
-   inkscape:version="1.3.1 (6036e22fae, 2023-11-19, custom)"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    id="svg8"
    version="1.1"
    viewBox="0 0 147.2176 141.38524"
@@ -32,8 +32,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="214.84672"
-     inkscape:cx="135.87145"
+     inkscape:cy="213.14833"
+     inkscape:cx="136.72064"
      inkscape:zoom="0.58879185"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.03137255"
@@ -75,13 +75,13 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
      transform="translate(-26.791374,-29.736)">
-    <ellipse
-       style="fill:#e6e6e6;stroke-width:3.15038"
-       id="path1"
-       cx="100.40018"
-       cy="100.42862"
-       rx="73.608803"
-       ry="70.692619" />
+    <rect
+       style="fill:#f8f9fa;stroke-width:2.794;fill-opacity:1"
+       id="rect1"
+       width="137.81299"
+       height="137.81299"
+       x="32.073322"
+       y="30.661957" />
     <rect
        style="fill:none;stroke-width:0.377793;stop-color:#000000"
        id="rect850"
