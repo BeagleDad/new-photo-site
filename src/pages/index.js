@@ -67,7 +67,6 @@ export const Head = () => {
   return (
     <>
       <Seo title="Home" />
-      {/* <html lang="en" data-bs-theme="dark" /> */}
     </>
   )
 }

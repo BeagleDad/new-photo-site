@@ -19,7 +19,6 @@ export const Head = () => {
   return (
     <>
       <Seo title="Aerial Services" />
-      {/* <html lang="en" data-bs-theme="dark"  /> */}
     </>
   )
 }

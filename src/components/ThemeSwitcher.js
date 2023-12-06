@@ -1,4 +1,5 @@
 import React from "react"
+import { Button } from "react-bootstrap"
 
 const ThemeSwitcher = () => {
   const themeToggle = () => {
@@ -23,7 +24,8 @@ const ThemeSwitcher = () => {
   }
   return (
     <div>
-      <button onClick={themeToggle}>Dark Mode</button>
+      
+      <Button variant="secondary" size="sm" onClick={themeToggle} className="" aria-hidden="true"><i className="bi bi-brightness-high-fill pe-1"></i><i className="bi bi-moon-fill ps-1"></i></Button>
     </div>
   )
 }

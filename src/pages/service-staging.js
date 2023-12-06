@@ -123,7 +123,6 @@ export const Head = () => {
   return (
     <>
       <Seo title="Virtual Staging" />
-      <html lang="en" data-bs-theme="dark" />
     </>
   )
 }
