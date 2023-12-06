@@ -53,7 +53,7 @@ export const Head = () => {
   return (
     <>
       <Seo title="Interior Photos" />
-      <html lang="en" data-bs-theme="dark"  />
+      {/* <html lang="en" data-bs-theme="dark"  /> */}
     </>
   )
 }

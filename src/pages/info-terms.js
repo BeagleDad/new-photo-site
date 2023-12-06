@@ -19,7 +19,7 @@ export const Head = () => {
   return (
     <>
       <Seo title="Terms of Service" />
-      <html lang="en" data-bs-theme="dark"  />
+      {/* <html lang="en" data-bs-theme="dark"  /> */}
     </>
   )
 }

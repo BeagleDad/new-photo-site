@@ -1,4 +1,5 @@
 import * as React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Seo from "../components/seo"
 import { Carousel, Container } from "react-bootstrap"
@@ -66,7 +67,7 @@ export const Head = () => {
   return (
     <>
       <Seo title="Home" />
-      <html lang="en" data-bs-theme="dark" />
+      {/* <html lang="en" data-bs-theme="dark" /> */}
     </>
   )
 }
