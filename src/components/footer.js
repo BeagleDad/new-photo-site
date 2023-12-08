@@ -10,30 +10,28 @@ const Footer = () => {
     <Container fluid>
       {/* Todo: First stab - Needs work */}
       {/* <footer className="d-flex flex-md-wrap justify-content-between align-items-center py-3  border-top "> */}
-      <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-3 border-top">
+      <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-2 border-top">
         <Col>
-          <div className="mx-auto">
+          <div>
             <Link to="/" className="text-muted text-decoration-none">
               &copy; {new Date().getFullYear()} Matt Hoffman Photography
             </Link>
           </div>
         </Col>
         <Col className="text-muted">
-          <div className="mx-auto"><a
+          <a
             href="https://www.paar.org/"
             className="text-decoration-none"
             target="_blank"
             rel="noreferrer"
           >
-            <div>
               <StaticImage
                 src="../images/PAAR_Logo_3-Color.1-01-website.png"
                 alt="PAAR Logo"
-                width={110}
+                width={100}
               />
-            </div>
+              <span className="ps-3 ">PAAR Affiliate</span>
           </a>
-          PAAR Affiliate</div>
         </Col>
         <Col className="">
           <StaticImage
