@@ -6,8 +6,7 @@ import prep_pdf from "../assets/home-prep.pdf"
 const prep = () => {
   return (
     <Layout>
-      <h1>Property Prep</h1>
-
+      <h2>Property Prep</h2>
       <div>
         <p>
           Everyone wants their property to look its best. Here are some
