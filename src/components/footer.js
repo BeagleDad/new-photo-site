@@ -7,10 +7,10 @@ import Container from "react-bootstrap/Container"
 
 const Footer = () => {
   return (
-    <Container>
+    <Container fluid>
       {/* Todo: First stab - Needs work */}
       {/* <footer className="d-flex flex-md-wrap justify-content-between align-items-center py-3  border-top "> */}
-      <Row className="align-items-center flex-md-wrap py-3 border-top">
+      <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-3 border-top">
         <Col>
           <div className="mx-auto">
             <Link to="/" className="text-muted text-decoration-none">
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
           PAAR Affiliate</div>
         </Col>
-        <Col className="mx-auto">
+        <Col className="">
           <StaticImage
             src="../images/faa_drone_logo.svg"
             width={160}
