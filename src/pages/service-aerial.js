@@ -27,17 +27,58 @@ const serviceAerial = () => {
         surrounding area and how the property fits in with it. They can include
         property outlines showing the extent of the land.
       </p>
-      <Row>
-        <Col xs={3} >
-          <div className="text-center">Aerial Photo with property lines</div>
+      <Row className="py-2">
+        <Col xs={3}>
+          <div className="text-center">Luxury Home in Prescott, AZ</div>
+        </Col>
+        <Col>
+          <StaticImage
+            src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
+            alt="Property Line Aerial Photo"
+            width={800}
+          />
+        </Col>
+      </Row>
+      <Row className="py-2">
+        <Col xs={3}>
+          <div className="text-center">Aerial Photo with propery lines</div>
         </Col>
         <Col>
           <StaticImage
             src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
             alt="Property Line Aerial Photo"
+            width={800}
           />
         </Col>
       </Row>
+      <h3>Aerial Videos</h3>
+      <p>
+        Aerial Videos can showcase a property in a very exciting way. Video is
+        very compelling and allows the potential buyer to get a feel for the
+        property in a completely different way from still photographs.
+      </p>
+      <div className="text-center">
+        <iframe
+          className="px-2"
+          width="560/2"
+          height="315/2"
+          src="https://www.youtube.com/embed/6JjJ0A_xdyc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          className="px-2"
+          width="560/2"
+          height="315/2"
+          src="https://www.youtube.com/embed/dwUbiQhm0bc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </Layout>
   )
 }
