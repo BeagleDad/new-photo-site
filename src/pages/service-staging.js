@@ -13,7 +13,8 @@ const serviceVirtualStaging = ({ data }) => {
         Virtual Staging can add furniture and accesories to an otherwise empty
         room, making it much more attractive and appealing, at a fraction of the
         cost of actual staging with real furniture. Below are a few examples
-        showing a comparision of the empty and staged rooms.
+        showing a comparision of the empty and staged rooms. Click and drag the
+        slider to see the before and after images.
       </p>
       {/* todo: There has got to be a better programmatic was of doing this by mapping over the data!!! */}
       <Container className="w-75">
