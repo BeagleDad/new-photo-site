@@ -2,7 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Container, Row, Col } from "react-bootstrap"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 const serviceAerial = () => {
   return (
