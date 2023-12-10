@@ -13,7 +13,7 @@ const serviceAerial = () => {
         photos and video of your properties. Aerial photos can include property
         lines showing the extent of the land included in the sale.
       </p>
-      <div /* className="text-center" */>
+      <div className="text-center">
         <StaticImage
           src="../images/faa_drone_logo.svg"
           width={160}
