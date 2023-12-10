@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import "../styles/custom.css"
 const serviceAerial = () => {
   return (
@@ -24,8 +24,9 @@ const serviceAerial = () => {
       <p>
         Aerial photographs give your listings a unique perspective by providing
         a very attractive and appealing view of the property while showing the
-        surrounding area and how the property fits in with it. They can include
-        property outlines showing the extent of the land.
+        surrounding area and how the property fits in with it. The property can
+        be shown from multiple angles and directions. The photos can also
+        include property outlines showing the extent of the land.
       </p>
       <Row className="py-2">
         <Col xs={3}>
@@ -55,30 +56,30 @@ const serviceAerial = () => {
       <p>
         Aerial Videos can showcase a property in a very exciting way. Video is
         very compelling and allows the potential buyer to get a feel for the
-        property in a completely different way from still photographs.
+        property in a completely different way from still photographs. Below are
+        some examples of aerial videos with an accompanied music track.
       </p>
-      <div className="text-center">
+      <Container className="text-center">
         <iframe
-          className="px-2"
-          width="560/2"
-          height="315/2"
-          src="https://www.youtube.com/embed/6JjJ0A_xdyc"
-          title="YouTube video player"
+          className="p-2"
+          src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
+          width="560"
+          height="315"
+          title="highpoint2"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
+
         <iframe
-          className="px-2"
-          width="560/2"
-          height="315/2"
-          src="https://www.youtube.com/embed/dwUbiQhm0bc"
-          title="YouTube video player"
+          className="p-2"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
+          title="Lee Blvd"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
-      </div>
+      </Container>
     </Layout>
   )
 }
