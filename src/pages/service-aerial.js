@@ -60,25 +60,27 @@ const serviceAerial = () => {
         property in a completely different way from still photographs. Below are
         some examples of aerial videos with an accompanied music track.
       </p>
-      <iframe
-        className="p-3"
-        src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
-        width="560"
-        height="315"
-        title="highpoint2"
-        frameborder="0"
-        allowFullScreen
-      ></iframe>
-
-      <iframe
-        className="p-3"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
-        title="Lee Blvd"
-        frameborder="0"
-        allowFullScreen
-      ></iframe>
+      <div className="d-block">
+        <iframe
+          className="p-3"
+          src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
+          width="560"
+          height="315"
+          title="highpoint2"
+          frameborder="0"
+          allowFullScreen
+        ></iframe>
+      
+        <iframe
+          className="p-3"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
+          title="Lee Blvd"
+          frameborder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
     </Layout>
   )
 }
