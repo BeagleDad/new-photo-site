@@ -6,13 +6,18 @@ import prep_pdf from "../assets/home-prep.pdf"
 const prep = () => {
   return (
     <Layout>
-      <h2 className="text-center"><i class="bi bi-house-check pe-2"></i>Property Prep</h2>
+      <h2 className="text-center">
+        <i class="bi bi-house-check pe-2"></i>Property Prep
+      </h2>
       <div>
         <p>
           Everyone wants their property to look its best. Here are some
           suggestions for getting your property ready to look its best and make
           the photo shoot go smoothly. Many of these things also apply to making
-          sure your home shows well to potential buyers.
+          sure your home shows well to potential buyers. Below is a list of
+          items to attend to to make the property visually appealing and ready
+          for photographing. There is a link at the bottom to a PDF to print
+          this as a checklist.
         </p>
         <ul>
           <li>The photo-shoot will take approximately 2-3 hours.</li>
@@ -68,85 +73,85 @@ const prep = () => {
             want as clear a view as possible of your property.
           </li>{" "}
           <li>
-            <b>Hide trashcans</b>: Trashcans can be placed on the side of the property
-            or in the garage.
+            <b>Hide trashcans</b>: Trashcans can be placed on the side of the
+            property or in the garage.
           </li>
           <li>
-            <b>Hide hoses</b>: Do this the day before the shoot since hoses can drip
-            water onto the pavement when being moved, leaving puddles in your
-            pictures.
+            <b>Hide hoses</b>: Do this the day before the shoot since hoses can
+            drip water onto the pavement when being moved, leaving puddles in
+            your pictures.
           </li>
           <li>
-            <b>Prep the yard</b>: Do at least 24 hours prior to your photoshoot. Yard
-            should me mowed and cleared of any toys, tools, etc. Sweep
+            <b>Prep the yard</b>: Do at least 24 hours prior to your photoshoot.
+            Yard should me mowed and cleared of any toys, tools, etc. Sweep
             driveways, sidewalks, and patios.
           </li>
           <li>
-            <b>Turn off sprinklers</b>: Do not water the day of the shoot to prevent
-            puddles on pavement.
+            <b>Turn off sprinklers</b>: Do not water the day of the shoot to
+            prevent puddles on pavement.
           </li>
           <li>
             <b>Pick up poop</b>: If you have a dog, make sure that all of their
             droppings are cleared from the yard.
           </li>
           <li>
-            <b>Prep pool and spa</b>: If you have a pool and/or spa, please have them
-            clean with covers removed. For spas, provide instructions to the
-            realtor on how to turn it on.
+            <b>Prep pool and spa</b>: If you have a pool and/or spa, please have
+            them clean with covers removed. For spas, provide instructions to
+            the realtor on how to turn it on.
           </li>
           <li>
-            <b>Prep water features</b>: If you have fountains, waterfalls, etc., please
-            clean them and provide instructions to the realtor on how to turn
-            them on.
+            <b>Prep water features</b>: If you have fountains, waterfalls, etc.,
+            please clean them and provide instructions to the realtor on how to
+            turn them on.
           </li>
           <li>
-            <b>Remove for-sale sign</b>: The for-sale sign should be removed from the
-            property (if possible) by the realtor if it has already been
-            installed. Visible signs violate MLS photo rules, and they can’t
-            always be edited out. It’s best to schedule sign installation for
-            after the photoshoot.
+            <b>Remove for-sale sign</b>: The for-sale sign should be removed
+            from the property (if possible) by the realtor if it has already
+            been installed. Visible signs violate MLS photo rules, and they
+            can’t always be edited out. It’s best to schedule sign installation
+            for after the photoshoot.
           </li>
           <li>
-            <b>Clean patio furniture</b>: Dust and remove cobwebs from all outdoor
-            furniture. Do not hose down your furniture the day of your shoot,
-            since this can create puddles.
+            <b>Clean patio furniture</b>: Dust and remove cobwebs from all
+            outdoor furniture. Do not hose down your furniture the day of your
+            shoot, since this can create puddles.
           </li>
         </ul>{" "}
         <h2>Inside Prep</h2>
         <ul>
           <li>
-            <b>Declutter kitchen</b>: A few items on the counters are usually fine, but
-            dishes, sponges, rags, etc. should be put away. It's best to remove
-            all magnets, pictures, etc. from the refrigerator and remove throw
-            rugs from the floor.
+            <b>Declutter kitchen</b>: A few items on the counters are usually
+            fine, but dishes, sponges, rags, etc. should be put away. It's best
+            to remove all magnets, pictures, etc. from the refrigerator and
+            remove throw rugs from the floor.
           </li>{" "}
           <li>
-            <b>Declutter bathrooms</b>: Toothpaste, toothbrushes, razors, and other
-            "personal" items should be hidden. Decorative unused soaps, candles,
-            flowers, etc. are preferred. It’s also good to remove all throw rugs
-            from the floor.
+            <b>Declutter bathrooms</b>: Toothpaste, toothbrushes, razors, and
+            other "personal" items should be hidden. Decorative unused soaps,
+            candles, flowers, etc. are preferred. It’s also good to remove all
+            throw rugs from the floor.
           </li>
           <li>
-            <b>Prep bedrooms</b>: All bedrooms should have their beds made and items
-            put away.
+            <b>Prep bedrooms</b>: All bedrooms should have their beds made and
+            items put away.
           </li>
           <li>
             <b>Hide trashcans</b>: Trashcans can distract so it’s best to hide
             all of them in closets or the garage.
           </li>
           <li>
-            <b>Hide portable fans</b>: Ceiling fans are selling items but portable fans
-            can give the wrong impression. It’s best to hide all portable fans
-            in closets or the garage.
+            <b>Hide portable fans</b>: Ceiling fans are selling items but
+            portable fans can give the wrong impression. It’s best to hide all
+            portable fans in closets or the garage.
           </li>
           <li>
-            <b>Hide cords and remotes</b>: Sometimes electrical cords can’t be hidden,
-            but you will have more appealing pictures if you can hide TV
+            <b>Hide cords and remotes</b>: Sometimes electrical cords can’t be
+            hidden, but you will have more appealing pictures if you can hide TV
             remotes, game consoles, and any noticeable cords.
           </li>
           <li>
-            <b>Clear entryways</b>: Remove all shoes, umbrellas, and similar items from
-            entryways.
+            <b>Clear entryways</b>: Remove all shoes, umbrellas, and similar
+            items from entryways.
           </li>
           <b>Open blinds with views</b>: Your indoor photos will show outdoor
           views if there are views, or just light if a window looks onto a
@@ -192,10 +197,11 @@ const prep = () => {
           Thank you for your time and patience to go through this checklist! If
           you have any questions, please feel free to contact me.{" "}
         </p>
-        <div className="m-3"><a href={prep_pdf} className="m-2">
+        <div className="m-3">
+          <a href={prep_pdf} className="m-2">
             Home Prep Checklist PDF to print
-          </a></div>
-          
+          </a>
+        </div>
       </div>
     </Layout>
   )
