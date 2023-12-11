@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby"
+
 import { StaticImage } from "gatsby-plugin-image"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import { Button, Card } from "react-bootstrap"
 
 const serviceAerial = () => {
   return (
@@ -29,36 +30,46 @@ const serviceAerial = () => {
         be shown from multiple angles and directions. The photos can also
         include property outlines showing the extent of the land.
       </p>
-      <Row className="py-2">
-        <Col xs={3}>
-          <div className="text-center">Luxury Home in Prescott, AZ</div>
-        </Col>
-        <Col>
-          <StaticImage
-            src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
-            alt="Property Line Aerial Photo"
-            width={800}
-          />
-        </Col>
-      </Row>
-      <Row className="py-2">
-        <Col xs={3}>
-          <div className="text-center">Aerial Photo with propery lines</div>
-        </Col>
-        <Col>
-          <StaticImage
-            src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
-            alt="Property Line Aerial Photo"
-            width={800}
-          />
-        </Col>
-      </Row>
+      <Card className="mx-auto m-2 w-75">
+        <StaticImage
+          src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
+          alt="Luxury Home Aerial Photo"
+          width={600}
+        />
+        <Card.Body>
+          <Card.Title>Luxury Home</Card.Title>
+          <Card.Text>
+            Aerial Photo of a Luxury Home showing a view you won't get from the
+            ground.
+          </Card.Text>
+          <Button as={Link} to="/portfolio-aerial" variant="primary">
+            Aerial Portfolio
+          </Button>
+        </Card.Body>
+      </Card>
+      <Card className="mx-auto m-2 w-75">
+        <StaticImage
+          src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
+          alt="Property Line Aerial Photo"
+          width={600}
+        />
+        <Card.Body>
+          <Card.Title>Aerial Photo with Property Lines</Card.Title>
+          <Card.Text>
+            Aerial Photo with added property lines showing extent of the parcel.
+          </Card.Text>
+          <Button as={Link} to="/portfolio-aerial" variant="primary">
+            Aerial Portfolio
+          </Button>
+        </Card.Body>
+      </Card>
+
       <h3>Aerial Videos</h3>
       <p>
         Aerial Videos can showcase a property in a very exciting way. Video is
         very compelling and allows the potential buyer to get a feel for the
         property in a completely different way from still photographs. Below are
-        some examples of aerial videos with an accompanied music track.
+        some examples of aerial videos with a music track.
       </p>
       <div className="d-block">
         <iframe
@@ -70,7 +81,7 @@ const serviceAerial = () => {
           frameborder="0"
           allowFullScreen
         ></iframe>
-      
+
         <iframe
           className="p-3"
           width="560"
