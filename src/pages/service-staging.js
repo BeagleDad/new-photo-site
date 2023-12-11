@@ -8,7 +8,7 @@ import { graphql } from "gatsby"
 const serviceVirtualStaging = ({ data }) => {
   return (
     <Layout>
-      <h1 className="text-center">Virtual Staging Services</h1>
+      <h2 className="text-center">Virtual Staging Services</h2>
       <p className="w-75 m-auto pb-2">
         Virtual Staging can add furniture and accesories to an otherwise empty
         room, making it much more attractive and appealing, at a fraction of the
