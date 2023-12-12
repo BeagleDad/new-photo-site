@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 import { StaticImage } from "gatsby-plugin-image"
-import { Button, Card } from "react-bootstrap"
+import { Button, Card, Col, Container, Row } from "react-bootstrap"
 
 const serviceAerial = () => {
   return (
@@ -71,27 +71,24 @@ const serviceAerial = () => {
         property in a completely different way from still photographs. Below are
         some examples of aerial videos with a music track.
       </p>
-      <div className="d-block">
-        <iframe
-          className="p-3"
-          src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
-          width="560"
-          height="315"
-          title="highpoint2"
-          frameborder="0"
-          allowFullScreen
-        ></iframe>
-
-        <iframe
-          className="p-3"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
-          title="Lee Blvd"
-          frameborder="0"
-          allowFullScreen
-        ></iframe>
-      </div>
+        <div className="iframe-container">
+          <iframe
+            className="p-3"
+            src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
+            title="highpoint2"
+            frameborder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
+          <iframe
+            className="p-3"
+            src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
+            title="Lee Blvd"
+            frameborder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
     </Layout>
   )
 }
