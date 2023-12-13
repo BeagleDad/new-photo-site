@@ -24,8 +24,10 @@ const ThemeSwitcher = () => {
   }
   return (
     <div>
-      
-      <Button variant="secondary" size="sm" onClick={themeToggle} className="" aria-hidden="true"><i className="bi bi-brightness-high-fill pe-1"></i><i className="bi bi-moon-fill ps-1"></i></Button>
+      {/* <i class="bi bi-sun-fill"></i>
+      <i class="bi bi-moon"></i> */}
+      <i className="bi bi-toggle-on fs-4" onClick={themeToggle} ></i>
+      {/* <Button variant="secondary" size="sm" onClick={themeToggle} className="" aria-hidden="true"><i className="bi bi-brightness-high-fill pe-1"></i><i className="bi bi-moon-fill ps-1"></i></Button> */}
     </div>
   )
 }
