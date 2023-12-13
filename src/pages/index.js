@@ -10,9 +10,12 @@ import Header from "../components/header"
 const IndexPage = () => (
   <Container fluid>
     <Header />
-    <Carousel >
+    <Carousel fade>
       <Carousel.Item>
-        <StaticImage src="../images/photos/LorraineCt_2640.jpg" alt="" />
+        <StaticImage
+          src="../images/photos/LorraineCt_2640.jpg"
+          alt=""
+        />
         <Carousel.Caption
           as={Link}
           to="/portfolio-exterior"
