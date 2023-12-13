@@ -36,6 +36,7 @@ export const query = graphql`
   query {
     allFile(
       filter: {relativeDirectory: {eq: "photos/interior"}, ext: {regex: "/(jpg)|(jpeg)/"}}
+      sort: {base: DESC}
     ) {
       edges {
         node {

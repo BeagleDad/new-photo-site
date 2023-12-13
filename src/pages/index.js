@@ -1,5 +1,5 @@
 import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import Seo from "../components/seo"
 import { Carousel, Container } from "react-bootstrap"
@@ -26,7 +26,7 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <StaticImage
-          src="../images/photos/LorraineCt_2564_mls_01.jpg"
+          src="../images/photos/interior/LorraineCt_2564_mls_01.jpg"
           alt=""
         />
         <Carousel.Caption
@@ -38,7 +38,10 @@ const IndexPage = () => (
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <StaticImage src="../images/photos/DJI_0012proplines.JPG" alt="" />
+        <StaticImage
+          src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
+          alt=""
+        />
         <Carousel.Caption
           as={Link}
           to="/portfolio-aerial"
