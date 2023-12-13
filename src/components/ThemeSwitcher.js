@@ -26,8 +26,25 @@ const ThemeSwitcher = () => {
     <div>
       {/* <i class="bi bi-sun-fill"></i>
       <i class="bi bi-moon"></i> */}
-      <i className="bi bi-toggle-on fs-4" onClick={themeToggle} ></i>
-      {/* <Button variant="secondary" size="sm" onClick={themeToggle} className="" aria-hidden="true"><i className="bi bi-brightness-high-fill pe-1"></i><i className="bi bi-moon-fill ps-1"></i></Button> */}
+      {/* <i className="bi bi-toggle-on fs-4" onClick={themeToggle} ></i> */}
+      <Button
+        variant="tertiary"
+        size="sm"
+        onClick={themeToggle}
+        className=""
+        aria-hidden="true"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-toggle-on"
+          viewBox="0 0 16 16"
+        >
+          <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8" />
+        </svg>
+      </Button>
     </div>
   )
 }
