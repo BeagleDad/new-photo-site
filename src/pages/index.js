@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Carousel fade>
       <Carousel.Item>
         <StaticImage
-          src="../images/photos/LorraineCt_2640.jpg"
+          src="../images/photos/exterior/LorraineCt_2640.jpg"
           alt=""
         />
         <Carousel.Caption
