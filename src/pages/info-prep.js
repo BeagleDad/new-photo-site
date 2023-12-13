@@ -198,7 +198,7 @@ const prep = () => {
           you have any questions, please feel free to contact me.{" "}
         </p>
         <div className="m-3">
-          <a href={prep_pdf} className="m-2">
+          <a href={prep_pdf} className="m-2" target="_blank" rel="noreferrer">
             Home Prep Checklist PDF to print
           </a>
         </div>
