@@ -22,6 +22,7 @@ const portfolioInterior = ({data}) => {
         Interior Photos are the heart of the listing. They show off the beauty and features of the home. They should be bright and clear and composed to clearly show the layout and living space of the home.
       </p>
       <Gallery
+          reactModalStyle={'z-index:100'}
           images={images}
           onClose={onClose}
           mdColWidth={20}

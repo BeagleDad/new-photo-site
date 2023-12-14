@@ -25,6 +25,7 @@ const portfolioAerial = ({ data }) => {
       </p>
       <Gallery
         images={images}
+        reactModalStyle={'z-index:100'}
         onClose={onClose}
         mdColWidth={20}
         thumbAlt={"photo"}
