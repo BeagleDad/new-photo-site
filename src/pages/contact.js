@@ -45,8 +45,8 @@ const contact = () => {
           <Form.Control type="phone" placeholder="Phone Number" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Enter Message</Form.Label>
-          <Form.Control as="textarea" rows={3} />
+          <Form.Label>Message</Form.Label>
+          <Form.Control as="textarea" rows={3} placeholder="Enter Message"/>
         </Form.Group>
         <Button variant="primary" type="submit">
           Submit
