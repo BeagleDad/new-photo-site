@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container"
 
 const Footer = () => {
   return (
-    <Container fluid>
+    <Container fluid className="fixed-bottom z-0">
       {/* Todo: First stab - Needs work */}
       {/* <footer className="d-flex flex-md-wrap justify-content-between align-items-center py-3  border-top "> */}
       <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-2 border-top">

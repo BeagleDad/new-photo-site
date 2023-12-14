@@ -12,7 +12,7 @@ import "bootstrap-icons/font/bootstrap-icons.min.css"
 import "../styles/custom.css"
 import Header from "./header"
 import Footer from "./footer"
-import { Container } from "react-bootstrap"
+import Container from "react-bootstrap/Container"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <Container className="py-2">
+      <Container className="fmb py-3">
         <main>{children}</main>
       </Container>
       <Footer />
