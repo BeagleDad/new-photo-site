@@ -4,8 +4,14 @@ import Seo from "../components/seo"
 import Container from "react-bootstrap/Container"
 import { ImgComparisonSlider } from "@img-comparison-slider/react"
 import { graphql } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 
 const serviceVirtualStaging = ({ data }) => {
+  const pairs = data.allFile.edges.flatMap((_, i, a) =>
+    i % 2 ? [] : [a.slice(i, i + 2)]
+  )
+  //console.log({ pairs })
+
   return (
     <Layout>
       <h2 className="text-center">Virtual Staging Services</h2>
@@ -16,84 +22,25 @@ const serviceVirtualStaging = ({ data }) => {
         showing a comparision of the empty and staged rooms. Click and drag the
         slider to see the before and after images.
       </p>
-      {/* todo: There has got to be a better programmatic was of doing this by mapping over the data!!! */}
       <Container className="w-75">
-        <ImgComparisonSlider className="slider-example">
-          <img
-            slot="first"
-            width="100%"
-            src={data.allFile.edges[0].node.publicURL}
-            alt="before"
-          />
-          <img
-            slot="second"
-            width="100%"
-            src={data.allFile.edges[1].node.publicURL}
-            alt="after"
-          />
-        </ImgComparisonSlider>
-        <ImgComparisonSlider className="slider-example ">
-          <img
-            slot="first"
-            width="100%"
-            src={data.allFile.edges[2].node.publicURL}
-            alt="before"
-          />
-          <img
-            slot="second"
-            width="100%"
-            src={data.allFile.edges[3].node.publicURL}
-            alt="after"
-          />
-        </ImgComparisonSlider>
-        <ImgComparisonSlider className="slider-example ">
-          <img
-            slot="first"
-            width="100%"
-            src={data.allFile.edges[4].node.publicURL}
-            alt="before"
-          />
-          <img
-            slot="second"
-            width="100%"
-            src={data.allFile.edges[5].node.publicURL}
-            alt="after"
-          />
-        </ImgComparisonSlider>
-        <ImgComparisonSlider className="slider-example">
-          <img
-            slot="first"
-            width="100%"
-            src={
-              data.allFile.edges[6].node
-                .publicURL /* childImageSharp.gatsbyImageData */
-            }
-            alt="before"
-          />
-          <img
-            slot="second"
-            width="100%"
-            src={
-              data.allFile.edges[7].node
-                .publicURL /* childImageSharp.gatsbyImageData */
-            }
-            alt="after"
-          />
-        </ImgComparisonSlider>
-        <ImgComparisonSlider className="slider-example ">
-          <img
-            slot="first"
-            width="100%"
-            src={data.allFile.edges[8].node.publicURL}
-            alt="before"
-          />
-          <img
-            slot="second"
-            width="100%"
-            src={data.allFile.edges[9].node.publicURL}
-            alt="after"
-          />
-        </ImgComparisonSlider>
+        {pairs.map((pair, index) => {
+          return (
+            <ImgComparisonSlider className="slider-example" key={index}>
+              <img
+                slot="first"
+                width="100%"
+                src={getSrc(pair[0].node)}
+                alt="before"
+              />
+              <img
+                slot="second"
+                width="100%"
+                src={getSrc(pair[1].node)}
+                alt="after"
+              />
+            </ImgComparisonSlider>
+          )
+        })}
       </Container>
     </Layout>
   )
