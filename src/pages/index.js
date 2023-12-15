@@ -14,6 +14,7 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           src="../images/photos/exterior/LorraineCt_2640.jpg"
+          placeholder="blurred"
           alt=""
           height={1000}
           width={1800}
@@ -31,6 +32,7 @@ const IndexPage = () => (
           src="../images/photos/interior/LorraineCt_2564_mls_01.jpg"
           height={1000}
           width={1800}
+          placeholder="blurred"
           alt=""
         />
         <Carousel.Caption
@@ -46,6 +48,7 @@ const IndexPage = () => (
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
           height={1000}
           width={1800}
+          placeholder="blurred"
           alt=""
         />
         <Carousel.Caption
@@ -61,6 +64,7 @@ const IndexPage = () => (
           src="../images/photos/D85_4753_VS.jpg"
           height={1000}
           width={1800}
+          placeholder="blurred"
           alt=""
         />
         <Carousel.Caption
