@@ -15,8 +15,8 @@ const IndexPage = () => (
         <StaticImage
           src="../images/photos/exterior/LorraineCt_2640.jpg"
           alt=""
-          height='1000'
-          width="1800"
+          height={1000}
+          width={1800}
         />
         <Carousel.Caption
           as={Link}
@@ -29,8 +29,8 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           src="../images/photos/interior/LorraineCt_2564_mls_01.jpg"
-          height='1000'
-          width="1800"
+          height={1000}
+          width={1800}
           alt=""
         />
         <Carousel.Caption
@@ -44,8 +44,8 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
-          height='1000'
-          width="1800"
+          height={1000}
+          width={1800}
           alt=""
         />
         <Carousel.Caption
@@ -59,8 +59,8 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           src="../images/photos/D85_4753_VS.jpg"
-          height='1000'
-          width="1800"
+          height={1000}
+          width={1800}
           alt=""
         />
         <Carousel.Caption
