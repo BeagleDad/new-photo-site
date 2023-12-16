@@ -16,7 +16,7 @@ const portfolioAerial = ({ data }) => {
   return (
     <Layout>
       <h2 className="text-center">Aerial Photos</h2>
-      <p className="w-75">
+      <p className="w-75 m-auto">
         Aerial photographs give your listings a unique perspective by providing
         a very attractive and appealing view of the property while showing the
         surrounding area and how the property fits in with it. The property can
