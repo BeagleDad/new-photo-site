@@ -50,10 +50,10 @@ const Header = ({ siteTitle }) => (
           </NavDropdown>
           <NavDropdown title="Info">
             <NavDropdown.Item as={Link} to="/info-prep">
-              <i class="bi bi-house-check pe-2"></i>Property Prep
+              <i className="bi bi-house-check pe-2"></i>Property Prep
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/info-terms">
-              <i class="bi bi-pen pe-2"></i>Terms of Service
+              <i className="bi bi-pen pe-2"></i>Terms of Service
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/about">

@@ -30,7 +30,7 @@ const Footer = () => {
                 alt="PAAR Logo"
                 width={100}
               />
-              <span className="ps-3 ">PAAR Affiliate</span>
+              <span className="ps-3 small text-nowrap">PAAR Affiliate</span>
           </a>
         </Col>
         <Col className="">
@@ -41,7 +41,6 @@ const Footer = () => {
           />
         </Col>
       </Row>
-      {/* </footer> */}
     </Container>
   )
 }

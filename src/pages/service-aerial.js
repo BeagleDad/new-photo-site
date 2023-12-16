@@ -76,7 +76,6 @@ const serviceAerial = () => {
           className="p-3"
           src="https://www.youtube.com/embed/6JjJ0A_xdyc?rel=0"
           title="highpoint2"
-          frameborder="0"
           allowFullScreen
         ></iframe>
       </div>
@@ -85,7 +84,6 @@ const serviceAerial = () => {
           className="p-3"
           src="https://www.youtube.com/embed/dwUbiQhm0bc?rel=0"
           title="Lee Blvd"
-          frameborder="0"
           allowFullScreen
         ></iframe>
       </div>

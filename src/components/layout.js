@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <Container className="fmb py-3">
+      <Container className="pt-3 cust-padding-bottom">
         <main>{children}</main>
       </Container>
       <Footer />

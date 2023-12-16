@@ -24,8 +24,8 @@ const ThemeSwitcher = () => {
   }
   return (
     <div>
-      {/* <i class="bi bi-sun-fill"></i>
-      <i class="bi bi-moon"></i> */}
+      {/* <i className="bi bi-sun-fill"></i>
+      <i className="bi bi-moon"></i> */}
       {/* <i className="bi bi-toggle-on fs-4" onClick={themeToggle} ></i> */}
       <Button
         variant="tertiary"

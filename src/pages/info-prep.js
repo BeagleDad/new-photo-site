@@ -7,7 +7,7 @@ const prep = () => {
   return (
     <Layout>
       <h2 className="text-center">
-        <i class="bi bi-house-check pe-2"></i>Property Prep
+        <i className="bi bi-house-check pe-2"></i>Property Prep
       </h2>
       <div>
         <p>
