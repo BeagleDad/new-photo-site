@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import terms_pdf from "../assets/terms.pdf"
+import terms_pdf from "../assets/terms_of_service.pdf"
 const terms = () => {
   return (
     <Layout>
