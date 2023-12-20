@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+// this import causes a warning so I move the import to layout and index.
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 exports.onClientEntry = () => {

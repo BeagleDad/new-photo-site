@@ -9,8 +9,8 @@ import NavDropdown from "react-bootstrap/NavDropdown"
 import ThemeSwitcher from "./ThemeSwitcher"
 
 const Header = ({ siteTitle }) => (
-  <Navbar expand="lg" /* fixed="top" */ className="bg-body-tertiary">
-    <Container>
+  <Navbar expand="lg" /* fixed="top" */ className="bg-body-tertiary ">
+    <Container className="me-4">
       <Navbar.Brand as={Link} to="/" className="">
         <StaticImage
           src="../images/mh_logo_round.svg"
@@ -64,7 +64,9 @@ const Header = ({ siteTitle }) => (
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <ThemeSwitcher />
+      <Navbar.Text>
+        <ThemeSwitcher />
+      </Navbar.Text>
     </Container>
   </Navbar>
 )

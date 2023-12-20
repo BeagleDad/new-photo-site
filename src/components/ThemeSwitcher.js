@@ -1,51 +1,69 @@
 import React from "react"
-import { Button } from "react-bootstrap"
+import Button from "react-bootstrap/Button"
 
 const ThemeSwitcher = () => {
+  /* Initial code to setup icons */
+
+  // get the root element (it is <html>)
+  const root_elem = document.documentElement
+  // see what the theme is set to
+  const currentTheme = root_elem.getAttribute("data-bs-theme")
+
+  var moonClass = "invisible"
+  var sunClass = "visible"
+
+  // Set the icon visibility according to the current theme
+  if (currentTheme === "dark") {
+    sunClass = "bi bi-sun invisible"
+    moonClass = "bi bi-moon-fill visible"
+  } else {
+    sunClass = "bi bi-sun visible"
+    moonClass = "bi bi-moon-fill invisible"
+  }
+
+  /***
+    onClick toggle function
+  */
   const themeToggle = () => {
     // get the root element (it is <html>)
-    const elem = document.documentElement
-
+    const root_elem = document.documentElement
     // see what the theme is set to
-    var currentTheme = elem.getAttribute("data-bs-theme")
+    var currentTheme = root_elem.getAttribute("data-bs-theme")
+
+    // toggle the current theme
     if (currentTheme === "dark") {
       currentTheme = "light"
+      document.getElementById("toggle-off").classList.remove("invisible")
+      document.getElementById("toggle-off").classList.add("visible")
+      document.getElementById("toggle-on").classList.remove("visible")
+      document.getElementById("toggle-on").classList.add("invisible")
     } else {
       currentTheme = "dark"
+      document.getElementById("toggle-off").classList.remove("visible")
+      document.getElementById("toggle-off").classList.add("invisible")
+      document.getElementById("toggle-on").classList.remove("invisible")
+      document.getElementById("toggle-on").classList.add("visible")
     }
-    elem.setAttribute("data-bs-theme", currentTheme)
+    // Set the theme in the root element.
+    root_elem.setAttribute("data-bs-theme", currentTheme)
 
     // Get the current theme from local storage, if it exists
     var savedTheme = localStorage.getItem("data-bs-theme")
     if (savedTheme !== currentTheme) {
       localStorage.setItem("data-bs-theme", currentTheme)
-      console.log("currentTheme", currentTheme)
     }
   }
   return (
-    <div>
-      {/* <i className="bi bi-sun-fill"></i>
-      <i className="bi bi-moon"></i> */}
-      {/* <i className="bi bi-toggle-on fs-4" onClick={themeToggle} ></i> */}
-      <Button
-        variant="tertiary"
-        size="sm"
-        onClick={themeToggle}
-        className=""
-        aria-hidden="true"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          className="bi bi-toggle-on"
-          viewBox="0 0 16 16"
-        >
-          <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8" />
-        </svg>
-      </Button>
-    </div>
+    <Button
+      variant="outline-secondary"
+      size="sm"
+      /* className="pe-3" */ onClick={themeToggle}
+    >
+      <span>
+        <i id="toggle-on" className={moonClass}></i>
+        <i id="toggle-off" className={sunClass}></i>
+      </span>
+    </Button>
   )
 }
 export default ThemeSwitcher
