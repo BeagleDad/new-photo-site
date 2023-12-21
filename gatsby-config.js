@@ -14,6 +14,10 @@ module.exports = {
     author: `@matthoffman`,
     siteUrl: `https://matthoffmanphoto.com/`,
   },
+  // Enable this to debug SSR build issues with "gatsby develop" before deploy
+  // flags: {
+  //   DEV_SSR: true
+  // },
   pathPrefix: "/new-photo-site",
   plugins: [
     `gatsby-plugin-image`,

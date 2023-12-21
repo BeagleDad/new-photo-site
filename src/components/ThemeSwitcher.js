@@ -1,26 +1,33 @@
 import React from "react"
+import { useEffect } from "react"
 import Button from "react-bootstrap/Button"
 
 const ThemeSwitcher = () => {
-  /* Initial code to setup icons */
+  useEffect(() => {
+    /* Initial code to setup icons */
 
-  // get the root element (it is <html>)
-  const root_elem = document.documentElement
-  // see what the theme is set to
-  const currentTheme = root_elem.getAttribute("data-bs-theme")
+    // get the root element (it is <html>)
+    const root_elem = document.documentElement
+    // see what the theme is set to
+    const currentTheme = root_elem.getAttribute("data-bs-theme")
 
-  var moonClass = "invisible"
-  var sunClass = "visible"
+    // Get the classList of both elements
+    var moonClassList = document.getElementById("toggle-on").classList
+    var sunClassList = document.getElementById("toggle-off").classList
 
-  // Set the icon visibility according to the current theme
-  if (currentTheme === "dark") {
-    sunClass = "bi bi-sun invisible"
-    moonClass = "bi bi-moon-fill visible"
-  } else {
-    sunClass = "bi bi-sun visible"
-    moonClass = "bi bi-moon-fill invisible"
-  }
-
+    // Set the icon visibility according to the current theme
+    if (currentTheme === "dark") {
+        sunClassList.remove("visible")
+      sunClassList.add("invisible")
+      moonClassList.remove("invisible")
+      moonClassList.add("visible")
+    } else {
+      sunClassList.remove("invisible")
+      sunClassList.add("visible")
+      moonClassList.remove("invisible")
+      moonClassList.add("invisible")
+    }
+  })
   /***
     onClick toggle function
   */
@@ -30,19 +37,23 @@ const ThemeSwitcher = () => {
     // see what the theme is set to
     var currentTheme = root_elem.getAttribute("data-bs-theme")
 
+    // Get the classList of both elements
+    var moonClassList = document.getElementById("toggle-on").classList
+    var sunClassList = document.getElementById("toggle-off").classList
+    
     // toggle the current theme
     if (currentTheme === "dark") {
       currentTheme = "light"
-      document.getElementById("toggle-off").classList.remove("invisible")
-      document.getElementById("toggle-off").classList.add("visible")
-      document.getElementById("toggle-on").classList.remove("visible")
-      document.getElementById("toggle-on").classList.add("invisible")
+      sunClassList.remove("invisible")
+      sunClassList.add("visible")
+      moonClassList.remove("visible")
+      moonClassList.add("invisible")
     } else {
       currentTheme = "dark"
-      document.getElementById("toggle-off").classList.remove("visible")
-      document.getElementById("toggle-off").classList.add("invisible")
-      document.getElementById("toggle-on").classList.remove("invisible")
-      document.getElementById("toggle-on").classList.add("visible")
+      sunClassList.remove("visible")
+      sunClassList.add("invisible")
+      moonClassList.remove("invisible")
+      moonClassList.add("visible")
     }
     // Set the theme in the root element.
     root_elem.setAttribute("data-bs-theme", currentTheme)
@@ -57,11 +68,12 @@ const ThemeSwitcher = () => {
     <Button
       variant="outline-secondary"
       size="sm"
-      /* className="pe-3" */ onClick={themeToggle}
+      id="darkmode-btn"
+      onClick={themeToggle}
     >
       <span>
-        <i id="toggle-on" className={moonClass}></i>
-        <i id="toggle-off" className={sunClass}></i>
+        <i id="toggle-on" className="bi bi-moon-fill invisible"></i>
+        <i id="toggle-off" className="bi bi-sun invisible"></i>
       </span>
     </Button>
   )

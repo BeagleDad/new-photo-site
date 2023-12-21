@@ -37,6 +37,10 @@
 }
 
 /*** Dark theme toggle code ***/
+#darkmode-btn {
+  border: none;
+}
+
 #toggle-on {
   color: var(--bs-secondary-color);
   position: relative;
