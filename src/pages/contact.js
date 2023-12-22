@@ -1,19 +1,20 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Button from "react-bootstrap/Button"
-import Form from "react-bootstrap/Form"
-import Col from "react-bootstrap/Col"
-import Row from "react-bootstrap/Row"
+// import Button from "react-bootstrap/Button"
+// import Form from "react-bootstrap/Form"
+// import Col from "react-bootstrap/Col"
+// import Row from "react-bootstrap/Row"
 
 const contact = () => {
   return (
     <Layout>
       <h2 className="text-center">Contact</h2>
       <p>
-        Thank you for your interest. Please contact me to setup a photo shoot or
-        with any questions. You can contact me directly via email, phone, text,
-        or fill out the form below to send me an email.
+        Thank you for your interest. I look forward to helping you with marketing
+        your next property listing. Please contact me to setup a photo shoot or
+        with any questions you may have. You can contact me directly via email,
+        phone, or text.
       </p>
       <div>
         <i className="bi bi-envelope pe-3"></i>matthoffmanphoto@gmail.com
@@ -22,7 +23,7 @@ const contact = () => {
         <i className="bi bi-telephone  pe-3"></i>928-550-8604
       </div>
 
-      <h5 className="mt-5">Email Form</h5>
+      {/* <h5 className="mt-5">Email Form</h5>
       <Form>
         <Row>
           <Col>
@@ -47,7 +48,7 @@ const contact = () => {
         <Button variant="primary" type="submit">
           Submit
         </Button>
-      </Form>
+      </Form> */}
     </Layout>
   )
 }

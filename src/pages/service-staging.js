@@ -18,9 +18,12 @@ const serviceVirtualStaging = ({ data }) => {
       <p className="w-75 m-auto pb-2">
         Virtual Staging can add furniture and accesories to an otherwise empty
         room, making it much more attractive and appealing, at a fraction of the
-        cost of actual staging with real furniture. Below are a few examples
-        showing a comparision of the empty and staged rooms. Click and drag the
-        slider to see the before and after images.
+        cost of staging with real furniture. Exterior areas, such as patios and
+        decks, can also be virtually staged with furniture and accesories.{" "}
+        <p>
+          Below are a few examples showing a comparision of the empty and staged
+          rooms. Click and drag the slider to see the before and after images.
+        </p>
       </p>
       <Container className="w-75">
         {pairs.map((pair, index) => {

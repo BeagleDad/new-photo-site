@@ -15,7 +15,7 @@ const prep = () => {
           suggestions for getting your property ready to look its best and make
           the photo shoot go smoothly. Many of these things also apply to making
           sure your home shows well to potential buyers. Below is a list of
-          items to attend to to make the property visually appealing and ready
+          items to make the property visually appealing and ready
           for photographing. There is a link at the bottom to a PDF to print
           this as a checklist.
         </p>
@@ -62,7 +62,7 @@ const prep = () => {
           <li>
             <b>Use the garage for storage:</b> I normally don’t shoot garages,
             unless it has special features, so this is a great place to store
-            items you’d like to hide
+            items you’d like to hide.
           </li>
         </ul>
         <h2>Outside Prep</h2>

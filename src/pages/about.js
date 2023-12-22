@@ -23,7 +23,7 @@ const about = () => {
       </p>
       <p>
         My journey into photography started at a very young age when my father
-        took me to Philadelphia to buy my first camera; a twin-lens reflex. I
+        took me to Philadelphia to buy my first camera: a twin-lens reflex. I
         still have it today! It was with that camera that I began to discover
         the wonders of the play of light and the freezing of time with the click
         of the shutter. It was the Golden Age of Photography, when film had to
@@ -47,9 +47,8 @@ const about = () => {
       <p>
         During this time my love for photography was always present. Recently
         the idea of using my photography skills and passion for architecture
-        came up as a way to combine my love for photography and passion for
-        architecture in a way to provide a service to help people. Thus was born
-        Matt Hoffman Photography.
+        came up as a way to combine them in a way to provide a service to help
+        people. Thus was born Matt Hoffman Photography.
       </p>
     </Layout>
   )

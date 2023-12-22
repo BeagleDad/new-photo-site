@@ -19,7 +19,7 @@ const serviceProperty = () => {
           <StaticImage
             src="../images/photos/interior/DSC_1585_4023x2677.jpg"
             alt="Interior Photo"
-            width={300}
+            width={360}
           />
         </Col>
         <Col>
@@ -35,7 +35,7 @@ const serviceProperty = () => {
           <StaticImage
             src="../images/photos/exterior/LorraineCt_2640.jpg"
             alt="Exterior Photo"
-            width={300}
+            width={360}
           />
         </Col>
         <Col>
@@ -50,7 +50,7 @@ const serviceProperty = () => {
           <StaticImage
             src="../images/photos/exterior/DSC_1744_4240x2821.jpg"
             alt="Twilight Photo"
-            width={300}
+            width={360}
           />
         </Col>
         <Col>
