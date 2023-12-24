@@ -18,7 +18,8 @@ module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  pathPrefix: "/new-photo-site",
+  // pathPrefix is needed when not using custom domain
+  // pathPrefix: "/new-photo-site",
   plugins: [
     `gatsby-plugin-image`,
     {
