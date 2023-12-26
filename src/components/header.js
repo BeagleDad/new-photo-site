@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => {
             alt="logo"
             className="me-3 "
           />
-          <Navbar.Text className="fs-3">Matt Hoffman Photography</Navbar.Text>
+          <Navbar.Text className="fs-3"> Matt Hoffman <span className="fs-6">Photography</span></Navbar.Text>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
