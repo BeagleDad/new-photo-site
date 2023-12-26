@@ -1,84 +1,56 @@
 import * as React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-
+import { graphql } from "gatsby"
 import Seo from "../components/seo"
-import { Carousel, Container } from "react-bootstrap"
-import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
+import { Container } from "react-bootstrap"
 import Header from "../components/header"
+import Gallery from "@browniebroke/gatsby-image-gallery"
 
-const IndexPage = () => (
-  <Container fluid>
-    <Header />
-    <Carousel fade>
-      <Carousel.Item>
-        <StaticImage
-          src="../images/photos/exterior/LorraineCt_2640.jpg"
-          placeholder="blurred"
-          alt=""
-          height={1000}
-          width={1800}
-        />
-        <Carousel.Caption
-          as={Link}
-          to="/portfolio-exterior"
-          className="text-decoration-none"
-        >
-          Exterior Photos
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <StaticImage
-          src="../images/photos/interior/LorraineCt_2564_mls_01.jpg"
-          height={1000}
-          width={1800}
-          placeholder="blurred"
-          alt=""
-        />
-        <Carousel.Caption
-          as={Link}
-          to="/portfolio-interior"
-          className="text-decoration-none"
-        >
-          Interior Photos
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <StaticImage
-          src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
-          height={1000}
-          width={1800}
-          placeholder="blurred"
-          alt=""
-        />
-        <Carousel.Caption
-          as={Link}
-          to="/portfolio-aerial"
-          className="text-decoration-none"
-        >
-          Aerial Photos
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <StaticImage
-          src="../images/photos/D85_4753_VS.jpg"
-          height={1000}
-          width={1800}
-          placeholder="blurred"
-          alt=""
-        />
-        <Carousel.Caption
-          as={Link}
-          to="/service-staging"
-          className="text-decoration-none"
-        >
-          Virtual Staging
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  </Container>
-)
+const IndexPage = ({data}) => {
+  const onClose = () => {
+    console.log("Lightbox was closed")
+  }
+  const images = data.allFile.edges.map(({ node }) => {
+    return node.childImageSharp
+  })
+  return (
+    <Container fluid>
+      <Header />
+      <Container><Gallery
+        images={images}
+        reactModalStyle={"z-index:100"}
+        onClose={onClose}
+        colWidth={100}
+        thumbAlt={"photo"}
+      /></Container>
+    </Container>
+  )
+}
 
+export const query = graphql`
+  query {
+    allFile(
+      filter: {
+        absolutePath: {regex: "/photos/"}
+        ext: { regex: "/(jpg)|(jpeg)/" }
+      }
+      sort: { base: DESC }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            thumb: gatsbyImageData(
+              width: 600
+              height: 400
+              placeholder: BLURRED
+            )
+            full: gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
+      }
+    }
+  }
+`
 /**
  * Head export to define metadata for the page
  *
