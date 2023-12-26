@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
+import Container from 'react-bootstrap/Container'
 
 import { StaticImage } from "gatsby-plugin-image"
 import { Button, Card} from "react-bootstrap"
@@ -30,11 +31,12 @@ const serviceAerial = () => {
         be shown from multiple angles and directions. The photos can also
         include property outlines showing the extent of the land.
       </p>
-      <Card className="mx-auto m-2 w-75">
+      <Container><Card className="mx-auto m-2 w-75">
         <StaticImage
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
           alt="Luxury Home Aerial Photo"
-          width={600}
+          width={800}
+          height={600}
         />
         <Card.Body>
           <Card.Title>Luxury Home</Card.Title>
@@ -51,7 +53,8 @@ const serviceAerial = () => {
         <StaticImage
           src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
           alt="Property Line Aerial Photo"
-          width={600}
+          width={800}
+          height={600}
         />
         <Card.Body>
           <Card.Title>Aerial Photo with Property Lines</Card.Title>
@@ -86,7 +89,7 @@ const serviceAerial = () => {
           title="Lee Blvd"
           allowFullScreen
         ></iframe>
-      </div>
+      </div></Container>
     </Layout>
   )
 }

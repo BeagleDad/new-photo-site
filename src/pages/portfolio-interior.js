@@ -44,7 +44,7 @@ export const query = graphql`
       edges {
         node {
           childImageSharp {
-            thumb: gatsbyImageData(width: 300, height: 300, placeholder: BLURRED)
+            thumb: gatsbyImageData(width: 600, placeholder: BLURRED)
             full: gatsbyImageData(layout: FULL_WIDTH)
           }
         }

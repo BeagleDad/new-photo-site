@@ -47,8 +47,8 @@ export const query = graphql`
         node {
           childImageSharp {
             thumb: gatsbyImageData(
-              width: 300
-              height: 300
+              width: 600
+              height: 400
               placeholder: BLURRED
             )
             full: gatsbyImageData(layout: FULL_WIDTH)
