@@ -25,7 +25,7 @@ const portfolioExterior = ({data}) => {
           images={images}
           reactModalStyle={'z-index:100'}
           onClose={onClose}
-          mdColWidth={20}
+          colWidth={100}
           thumbAlt={"photo"}
       />
       {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}

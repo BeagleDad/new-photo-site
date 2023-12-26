@@ -19,7 +19,7 @@ module.exports = {
   //   DEV_SSR: true
   // },
   // pathPrefix is needed when not using custom domain
-  // pathPrefix: "/new-photo-site",
+  pathPrefix: "/new-photo-site",
   plugins: [
     `gatsby-plugin-image`,
     {

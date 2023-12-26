@@ -53,3 +53,7 @@
   right: .4rem;
 }
 
+/* This makes the background color of the lightbox toolbar completely transparent (which is great) */
+.ril__toolbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+}

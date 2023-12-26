@@ -25,7 +25,9 @@ const portfolioInterior = ({data}) => {
           reactModalStyle={'z-index:100'}
           images={images}
           onClose={onClose}
-          mdColWidth={20}
+          colWidth={50}
+          // mdColWidth={20}
+          // gutter='.25rem'
           thumbAlt={"photo"}
       />
       {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
