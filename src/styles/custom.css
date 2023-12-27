@@ -57,3 +57,52 @@
 .ril__toolbar {
   background-color: rgba(0, 0, 0, 0) !important;
 }
+
+/* .logo-svg {
+  height: 100px;
+} */
+
+.logo_t {
+  color: green;
+}
+
+.logo-name, .my-role{
+  fill: #496683 !important;
+  /* fill: var(--bs-secondary-text-emphasis) !important; */
+}
+
+.logo-byline {
+  fill: var(--bs-dark-text-emphasis) !important;
+}
+
+/* These are sort of a guess, may need work */
+@media (min-width: 375px) {
+  .logo-svg {
+    height: 45px;
+  }
+}
+@media (min-width: 425px) {
+  .logo-svg {
+    height: 65px;
+  }
+}
+@media (min-width: 768px) {
+  .logo-svg {
+    height: 96px;
+  }
+}
+@media (min-width: 992px) {
+  .logo-svg {
+    height: 114px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo-svg {
+    height: 132px;
+  }
+}
+/* @media (min-width: 1400px) {
+  .logo-svg {
+    height: 160px;
+  }
+} */
