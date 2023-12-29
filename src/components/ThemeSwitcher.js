@@ -1,5 +1,6 @@
 import React from "react"
 import { useEffect } from "react"
+import { OverlayTrigger, Tooltip } from "react-bootstrap"
 import Button from "react-bootstrap/Button"
 
 const ThemeSwitcher = () => {
@@ -17,7 +18,7 @@ const ThemeSwitcher = () => {
 
     // Set the icon visibility according to the current theme
     if (currentTheme === "dark") {
-        sunClassList.remove("visible")
+      sunClassList.remove("visible")
       sunClassList.add("invisible")
       moonClassList.remove("invisible")
       moonClassList.add("visible")
@@ -40,7 +41,7 @@ const ThemeSwitcher = () => {
     // Get the classList of both elements
     var moonClassList = document.getElementById("toggle-on").classList
     var sunClassList = document.getElementById("toggle-off").classList
-    
+
     // toggle the current theme
     if (currentTheme === "dark") {
       currentTheme = "light"
@@ -65,17 +66,27 @@ const ThemeSwitcher = () => {
     }
   }
   return (
-    <Button
-      variant="outline-secondary"
-      size="sm"
-      id="darkmode-btn"
-      onClick={themeToggle}
+    <OverlayTrigger 
+      key='bottom'
+      placement="bottom"
+      overlay={
+        <Tooltip id="tooltip-bottom">
+          Darkmode Toggle
+        </Tooltip>
+      }
     >
-      <span>
-        <i id="toggle-on" className="bi bi-moon-fill invisible"></i>
-        <i id="toggle-off" className="bi bi-sun invisible"></i>
-      </span>
-    </Button>
+      <Button
+        variant="outline-secondary"
+        size="sm"
+        id="darkmode-btn"
+        onClick={themeToggle}
+      >
+        <span>
+          <i id="toggle-on" className="bi bi-moon-fill invisible"></i>
+          <i id="toggle-off" className="bi bi-sun invisible"></i>
+        </span>
+      </Button>
+    </OverlayTrigger>
   )
 }
 export default ThemeSwitcher
