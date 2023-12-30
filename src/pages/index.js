@@ -24,7 +24,7 @@ const IndexPage = () => (
           to="/portfolio-exterior"
           className="text-decoration-none"
         >
-          Exterior Photos
+          <h5>Exterior Photos</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,7 +40,7 @@ const IndexPage = () => (
           to="/portfolio-interior"
           className="text-decoration-none"
         >
-          Interior Photos
+          <h5>Interior Photos</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -56,7 +56,7 @@ const IndexPage = () => (
           to="/portfolio-aerial"
           className="text-decoration-none"
         >
-          Aerial Photos
+          <h5>Aerial Photos</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -72,7 +72,7 @@ const IndexPage = () => (
           to="/service-staging"
           className="text-decoration-none"
         >
-          Virtual Staging
+          <h5>Virtual Staging</h5>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
