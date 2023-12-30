@@ -109,7 +109,7 @@
 
 /* This makes the carousel images fit on mobile */
 .carousel-image {
-  height: 100vh !important;
+  height: 85vh !important;
   /* This works better than the calc to move the caption up into view at the bottom */
   padding-bottom: 10%;
   /* height: calc(100vh - 65px) !important; */
