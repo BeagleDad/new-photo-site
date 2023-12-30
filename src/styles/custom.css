@@ -44,13 +44,12 @@
 #toggle-on {
   color: var(--bs-secondary-color);
   position: relative;
-  left: .6rem;
-  
+  left: 0.6rem;
 }
 #toggle-off {
   color: var(--bs-emphasis-color);
   position: relative;
-  right: .4rem;
+  right: 0.4rem;
 }
 
 /* This makes the background color of the lightbox toolbar completely transparent (which is great) */
@@ -66,7 +65,8 @@
   color: green;
 }
 
-.logo-name, .my-role{
+.logo-name,
+.my-role {
   fill: #496683 !important;
   /* fill: var(--bs-secondary-text-emphasis) !important; */
 }
@@ -106,3 +106,11 @@
     height: 160px;
   }
 } */
+
+/* This makes the carousel images fit on mobile */
+.carousel-image {
+  height: 100vh !important;
+  /* This works better than the calc to move the caption up into view at the bottom */
+  padding-bottom: 10%;
+  /* height: calc(100vh - 65px) !important; */
+}

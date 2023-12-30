@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Carousel fade>
       <Carousel.Item>
         <StaticImage
-          className="vh-100"
+          className="carousel-image"
           src="../images/photos/exterior/LorraineCt_2640.jpg"
           placeholder="blurred"
           alt=""
@@ -29,7 +29,7 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <StaticImage
-          className="vh-100"
+          className="carousel-image"
           src="../images/photos/interior/LorraineCt_2564_mls_01.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
@@ -45,7 +45,7 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <StaticImage
-          className="vh-100"
+          className="carousel-image"
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
@@ -61,7 +61,7 @@ const IndexPage = () => (
       </Carousel.Item>
       <Carousel.Item>
         <StaticImage
-          className="vh-100"
+          className="carousel-image"
           src="../images/photos/D85_4753_VS.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
