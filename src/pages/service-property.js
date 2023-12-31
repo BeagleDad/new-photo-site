@@ -55,7 +55,7 @@ const serviceProperty = () => {
         </Col>
         <Col>
           Twilight photos are taken in the evening in order to capture those
-          fleeting after-sunset moments that bring a dramtic sense of warmth and
+          fleeting after-sunset moments that bring a dramatic sense of warmth and
           charm to a home.
         </Col>
       </Row>

@@ -15,9 +15,9 @@ const prep = () => {
           suggestions for getting your property ready to look its best and make
           the photo shoot go smoothly. Many of these things also apply to making
           sure your home shows well to potential buyers. Below is a list of
-          items to make the property visually appealing and ready
-          for photographing. There is a link at the bottom to a PDF to print
-          this as a checklist.
+          items to make the property visually appealing and ready for
+          photographing. There is a link at the bottom to a PDF to print this as
+          a checklist.
         </p>
         <ul>
           <li>The photo-shoot will take approximately 2-3 hours.</li>
@@ -40,8 +40,8 @@ const prep = () => {
             <b>Be shoot-ready:</b> Cleaning and staging needs to be done before
             I arrive, preferably the day before your photoshoot. I may move
             small items (flowers, small pictures, etc.) to improve photo
-            composition, but larger items need to be in place before I arrive,
-            and staging accessories need to be in place as well.
+            composition, but larger items need to be in place before I arrive.
+            Staging accessories need to be in place as well.
           </li>{" "}
           <li>
             <b>Secure or remove pets:</b> I love pets but we can’t have them
@@ -55,9 +55,9 @@ const prep = () => {
           <li>
             <b>Plan not to be seen:</b> All occupants should plan on either
             being off the property or remain in areas where they can't be seen
-            during the photoshoot. Rooms overlap in the photos, people can cause
-            shadows and reflections, and there is risk to equipment that will be
-            setup throughout the property.
+            during the photoshoot. Rooms overlap in the photos and people can
+            cause shadows and reflections. There is also a risk to equipment
+            that will be setup throughout the property.
           </li>{" "}
           <li>
             <b>Use the garage for storage:</b> I normally don’t shoot garages,
@@ -83,7 +83,7 @@ const prep = () => {
           </li>
           <li>
             <b>Prep the yard</b>: Do at least 24 hours prior to your photoshoot.
-            Yard should me mowed and cleared of any toys, tools, etc. Sweep
+            Yard should be mowed and cleared of any toys, tools, etc. Sweep
             driveways, sidewalks, and patios.
           </li>
           <li>
@@ -107,9 +107,9 @@ const prep = () => {
           <li>
             <b>Remove for-sale sign</b>: The for-sale sign should be removed
             from the property (if possible) by the realtor if it has already
-            been installed. Visible signs violate MLS photo rules, and they
-            can’t always be edited out. It’s best to schedule sign installation
-            for after the photoshoot.
+            been installed. Visible signs violate MLS photo rules and they can’t
+            always be edited out. It’s best to schedule sign installation for
+            after the photoshoot.
           </li>
           <li>
             <b>Clean patio furniture</b>: Dust and remove cobwebs from all
@@ -153,9 +153,10 @@ const prep = () => {
             <b>Clear entryways</b>: Remove all shoes, umbrellas, and similar
             items from entryways.
           </li>
-          <b>Open blinds with views</b>: Your indoor photos will show outdoor
-          views if there are views, or just light if a window looks onto a
-          neighbor or other unappealing view.
+          <li>
+            <b>Open blinds with views</b>: The indoor photos can clearly show outdoor
+            views if they are good. If the views are unappealing they can be de-emphasize.
+          </li>
           <li>
             <b>Turn on lights</b>: Before I arrive, please make sure all
             interior lights are turned on. If need-be, please replace all
@@ -181,7 +182,7 @@ const prep = () => {
           </li>
           <li>
             <b>Turn on spas and remove covers</b>: If you have a spa, remove the
-            cover, and turn it before I arrive. Turn on the lights in the spa as
+            cover, and turn it on before I arrive. Turn on the lights in the spa as
             well.
           </li>
           <li>

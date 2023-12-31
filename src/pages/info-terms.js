@@ -14,7 +14,7 @@ const terms = () => {
 
       <p>
         <b>Payment</b>: Payment is due at the time of the shoot. I accept credit
-        cards as well as checks, or cash.
+        cards as well as checks or cash.
       </p>
       <p>
         <b>The Shoot</b>: The homeowner or someone authorized by the homeowner
@@ -23,7 +23,7 @@ const terms = () => {
         included or excluded in shots. My goal at the shoot is to provide 25
         quality photos that include a front exterior, back exterior and all the
         major rooms such as living room, dining room, family room, kitchen,
-        master bedroom, master bath and bedrooms. Powder rooms, small bathrooms,
+        primary bedroom, primary bath and bedrooms. Powder rooms, small bathrooms,
         utility rooms or garages are not a shooting priority unless you give me
         direction otherwise.
       </p>
@@ -39,7 +39,7 @@ const terms = () => {
         necessary, please give me 24 hours notice.
       </p>
       <p>
-        <b>Photo delivery</b>: Once the photos are shot they will be edited and
+        <b>Photo delivery</b>: Once the photos are shot, they will be edited and
         optimized for quality and delivered to you via web site within 24 hours.
         You will receive an email with a link and instructions on downloading
         your photos.
