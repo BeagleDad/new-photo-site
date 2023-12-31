@@ -25,10 +25,10 @@ const serviceVirtualStaging = ({ data }) => {
           rooms. Click and drag the slider to see the before and after images.
         </p>
       </p>
-      <Container className="w-75">
+      <Container fluid>
         {pairs.map((pair, index) => {
           return (
-            <ImgComparisonSlider className="slider-example" key={index}>
+            <ImgComparisonSlider key={index} className="my-sm-2">
               <img
                 slot="first"
                 width="100%"
