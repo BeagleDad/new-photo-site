@@ -25,7 +25,7 @@ const portfolioInterior = ({data}) => {
           reactModalStyle={'z-index:100'}
           images={images}
           onClose={onClose}
-          colWidth={50}
+          colWidth={100}
           // mdColWidth={20}
           // gutter='.25rem'
           thumbAlt={"photo"}
@@ -39,7 +39,6 @@ export const query = graphql`
   query {
     allFile(
       filter: {relativeDirectory: {eq: "photos/interior"}, ext: {regex: "/(jpg)|(jpeg)/"}}
-      sort: {base: DESC}
     ) {
       edges {
         node {

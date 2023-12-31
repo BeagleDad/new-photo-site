@@ -25,9 +25,9 @@ const portfolioAerial = ({ data }) => {
       </p>
       <Gallery
         images={images}
-        reactModalStyle={'z-index:100'}
+        reactModalStyle={"z-index:100"}
         onClose={onClose}
-        mdColWidth={20}
+        colWidth={100}
         thumbAlt={"photo"}
       />
       {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
@@ -46,11 +46,7 @@ export const query = graphql`
       edges {
         node {
           childImageSharp {
-            thumb: gatsbyImageData(
-              width: 600
-              height: 400
-              placeholder: BLURRED
-            )
+            thumb: gatsbyImageData(aspectRatio: 1.78, width: 600, placeholder: BLURRED)
             full: gatsbyImageData(layout: FULL_WIDTH)
           }
         }
