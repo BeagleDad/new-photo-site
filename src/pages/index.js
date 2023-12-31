@@ -62,7 +62,7 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           className="carousel-image"
-          src="../images/photos/D85_4753_VS.jpg"
+          src="../images/photos/virtual_staging/D85_4753_VS.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
           alt=""
