@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => {
         <Navbar.Brand as={Link} to="/" className="">
           <svg
           className="logo-svg"
-            viewBox="0 0 460 137.81299"
+            viewBox="0 0 470 137.81299"
             // height="137.81299mm"
             // width="450.81717mm"
             xmlns="http://www.w3.org/2000/svg"
