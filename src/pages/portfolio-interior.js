@@ -1,34 +1,34 @@
-import React from 'react'
+import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout";
-import Gallery from '@browniebroke/gatsby-image-gallery';
+import Layout from "../components/layout"
+import Gallery from "@browniebroke/gatsby-image-gallery"
 import Seo from "../components/seo"
 
-const portfolioInterior = ({data}) => {
-    
+const portfolioInterior = ({ data }) => {
   const onClose = () => {
-    console.log('Lightbox was closed')
+    console.log("Lightbox was closed")
   }
-  const images = data.allFile.edges.map(({node}) => {
+  const images = data.allFile.edges.map(({ node }) => {
     return node.childImageSharp
-    }
-  )
+  })
   // console.log("data:",data)
   return (
     <Layout>
-      <h2 className='text-center'>Interior Photos</h2>
-      <p className='w-75 m-auto'>
-        Interior Photos are the heart of the listing. They show off the beauty and features of the home. They should be bright and clear and composed to clearly show the layout and living space of the home.
+      <h2 className="text-center">Interior Photos</h2>
+      <p className="w-75 m-auto">
+        Interior Photos are the heart of the listing. They show off the beauty
+        and features of the home. They should be bright and clear and composed
+        to clearly show the layout and living space of the home.
       </p>
       <Gallery
-          reactModalStyle={'z-index:100'}
-          images={images}
-          onClose={onClose}
-          colWidth={100}
-          // mdColWidth={20}
-          // gutter='.25rem'
-          thumbAlt={"photo"}
+        reactModalStyle={"z-index:100"}
+        images={images}
+        onClose={onClose}
+        colWidth={100}
+        // mdColWidth={20}
+        // gutter='.25rem'
+        thumbAlt={"photo"}
       />
       {/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
     </Layout>
@@ -38,7 +38,11 @@ const portfolioInterior = ({data}) => {
 export const query = graphql`
   query {
     allFile(
-      filter: {relativeDirectory: {eq: "photos/interior"}, ext: {regex: "/(jpg)|(jpeg)/"}}
+      filter: {
+        relativeDirectory: { eq: "photos/interior" }
+        ext: { regex: "/(jpg)|(jpeg)/" }
+      }
+      sort: { name: DESC }
     ) {
       edges {
         node {
