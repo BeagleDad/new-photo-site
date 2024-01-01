@@ -11,7 +11,15 @@ import Header from "../components/header"
 const IndexPage = () => (
   <Container fluid>
     <Header />
-    <Carousel fade>
+    <Carousel
+      fade
+      nextIcon={
+        <i className="bi bi-caret-right-square-fill text-primary fs-2"></i>
+      }
+      prevIcon={
+        <i className="bi bi-caret-left-square-fill text-primary fs-2"></i>
+      }
+    >
       <Carousel.Item>
         <StaticImage
           className="carousel-image"
@@ -23,7 +31,7 @@ const IndexPage = () => (
         <Carousel.Caption
           as={Link}
           to="/portfolio-exterior"
-          className="text-decoration-none"
+          className="link-primary"
         >
           <h5>Exterior Photos</h5>
         </Carousel.Caption>
@@ -39,7 +47,7 @@ const IndexPage = () => (
         <Carousel.Caption
           as={Link}
           to="/portfolio-interior"
-          className="text-decoration-none"
+          className="link-primary"
         >
           <h5>Interior Photos</h5>
         </Carousel.Caption>
@@ -55,7 +63,7 @@ const IndexPage = () => (
         <Carousel.Caption
           as={Link}
           to="/portfolio-aerial"
-          className="text-decoration-none"
+          className="link-primary"
         >
           <h5>Aerial Photos</h5>
         </Carousel.Caption>
@@ -63,7 +71,7 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           className="carousel-image"
-          src="../images/photos/virtual_staging/D85_4753_VS.jpg"
+          src="../images/photos/virtual_staging/D85_4753_VS_small.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
           alt=""
@@ -71,7 +79,7 @@ const IndexPage = () => (
         <Carousel.Caption
           as={Link}
           to="/service-staging"
-          className="text-decoration-none"
+          className="link-primary"
         >
           <h5>Virtual Staging</h5>
         </Carousel.Caption>
