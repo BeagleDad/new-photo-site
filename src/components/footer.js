@@ -1,15 +1,13 @@
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { Row, Col } from "react-bootstrap"
-
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 
 const Footer = () => {
   return (
     <Container fluid className="fixed-bottom z-0">
-      {/* Todo: First stab - Needs work */}
-      {/* <footer className="d-flex flex-md-wrap justify-content-between align-items-center py-3  border-top "> */}
       <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-2 border-top">
         <Col>
           <div>
@@ -25,12 +23,12 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-              <StaticImage
-                src="../images/PAAR_Logo_3-Color.1-01-website.png"
-                alt="PAAR Logo"
-                width={100}
-              />
-              <span className="ps-3 small text-nowrap">PAAR Affiliate</span>
+            <StaticImage
+              src="../images/PAAR_Logo_3-Color.1-01-website.png"
+              alt="PAAR Logo"
+              width={100}
+            />
+            <span className="ps-3 small text-nowrap">PAAR Affiliate</span>
           </a>
         </Col>
         <Col className="">

@@ -20,10 +20,10 @@ const serviceVirtualStaging = ({ data }) => {
         room, making it much more attractive and appealing, at a fraction of the
         cost of staging with real furniture. Exterior areas, such as patios and
         decks, can also be virtually staged with furniture and accesories.{" "}
-        <p>
-          Below are a few examples showing a comparision of the empty and staged
-          rooms. Click and drag the slider to see the before and after images.
-        </p>
+      </p>
+      <p>
+        Below are a few examples showing a comparision of the empty and staged
+        rooms. Click and drag the slider to see the before and after images.
       </p>
       <Container fluid>
         {pairs.map((pair, index) => {

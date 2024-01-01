@@ -5,7 +5,8 @@ import { Link } from "gatsby"
 import Container from 'react-bootstrap/Container'
 
 import { StaticImage } from "gatsby-plugin-image"
-import { Button, Card} from "react-bootstrap"
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
 
 const serviceAerial = () => {
   return (
@@ -44,7 +45,7 @@ const serviceAerial = () => {
             Aerial Photo of a Luxury Home showing a view you won't get from the
             ground.
           </Card.Text>
-          <Button as={Link} to="/portfolio-aerial" variant="primary">
+          <Button as={Link} to="/portfolio-aerial" variant="secondary">
             Aerial Portfolio
           </Button>
         </Card.Body>
@@ -61,7 +62,7 @@ const serviceAerial = () => {
           <Card.Text>
             Aerial Photo with added property lines showing extent of the parcel.
           </Card.Text>
-          <Button as={Link} to="/portfolio-aerial" variant="primary">
+          <Button as={Link} to="/portfolio-aerial" variant="secondary">
             Aerial Portfolio
           </Button>
         </Card.Body>
