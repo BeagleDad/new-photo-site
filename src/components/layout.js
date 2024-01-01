@@ -13,6 +13,7 @@ import "../styles/custom.css"
 import Header from "./header"
 import Footer from "./footer"
 import Container from "react-bootstrap/Container"
+import ScrollToTopButton from "./ScrollToTopButton"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Container className="pt-3 cust-padding-bottom">
         <main>{children}</main>
+        <ScrollToTopButton />
       </Container>
       <Footer />
     </>
