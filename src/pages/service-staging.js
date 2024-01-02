@@ -28,7 +28,7 @@ const serviceVirtualStaging = ({ data }) => {
       <Container fluid>
         {pairs.map((pair, index) => {
           return (
-            <ImgComparisonSlider key={index} className="my-sm-2">
+            <ImgComparisonSlider key={index}>
               <img
                 slot="first"
                 width="100%"
