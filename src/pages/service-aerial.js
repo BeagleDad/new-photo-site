@@ -9,19 +9,21 @@ const serviceAerial = () => {
   return (
     <Layout>
       <h2 className="text-center">Aerial Services</h2>
-      <p>
+      <p className="w-75 m-auto">
         I am an FAA Part 107 Certified Remote Pilot. I can offer both aerial
         photos and video of your properties. Aerial photos can include property
         lines showing the extent of the land included in the sale.
       </p>
-      <div className="text-center">
+      <div className="text-center m-3">
         <StaticImage
           src="../images/faa_drone_logo.svg"
           width={160}
           alt="faa logo"
         />
       </div>
-      <h3>Aerial Photos</h3>
+      <Link to="/portfolio-aerial">
+        <h4>Aerial Photos</h4>
+      </Link>
       <p>
         Aerial photographs give your listings a unique perspective by providing
         a very attractive and appealing view of the property while showing the
@@ -30,28 +32,30 @@ const serviceAerial = () => {
         include property outlines showing the extent of the land.
       </p>
       <Link to="/portfolio-aerial">
-        <h5>Luxury Home</h5>
+        {/* <h4>Aerial Photo</h4> */}
         <StaticImage
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
           alt="Luxury Home Aerial Photo"
           width={420}
         />
       </Link>
-      <p className="me-5">
+      <hr />
+      {/* <p className="me-5">
         Aerial Photo of a Luxury Home showing a view you won't get from the
         ground.
-      </p>
+      </p> */}
       <Link to="/portfolio-aerial">
-        <h5>Aerial Photo with Property Lines</h5>
+        <h4>Aerial Photo with Property Lines</h4>
         <StaticImage
           src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
           alt="Property Line Aerial Photo"
           width={420}
-        />
+          />
       </Link>
-      <p className="me-5">
+      {/* <p className="me-5">
         Aerial Photo with added property lines showing extent of the parcel.
-      </p>
+      </p> */}
+      <hr />
       <h3>Aerial Videos</h3>
       <p>
         Aerial Videos can showcase a property in a very exciting way. Video is

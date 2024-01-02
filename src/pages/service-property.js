@@ -8,7 +8,7 @@ const serviceProperty = () => {
   return (
     <Layout>
       <h2 className="text-center">Property Services</h2>
-      <p>
+      <p className="w-75 m-auto mb-3">
         Property services include both interior and exterior photos, and can
         include Twilight photos of the exterior.
       </p>
@@ -26,8 +26,9 @@ const serviceProperty = () => {
         the true color of the rooms. I shoot most rooms from multiple angles to
         show the layout and features of each room.
       </p>
+      <hr />
       <Link to="/portfolio-exterior">
-        <h4 className="pt-3">Exterior Photos</h4>
+        <h4>Exterior Photos</h4>
         <StaticImage
           src="../images/photos/exterior/LorraineCt_2640.jpg"
           alt="Exterior Photo"
@@ -39,9 +40,9 @@ const serviceProperty = () => {
         as the relationship with its surroundings. I shoot from many angles in
         order to make sure to capture all the amenities of the property.
       </p>
-
+      <hr />
       <Link to="/portfolio-exterior">
-        <h4 className="pt-3">Twilight Photos</h4>
+        <h4>Twilight Photos</h4>
         <StaticImage
           src="../images/photos/exterior/DSC_1744_4240x2821.jpg"
           alt="Twilight Photo"
