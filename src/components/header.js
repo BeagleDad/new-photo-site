@@ -250,10 +250,10 @@ const Header = ({ siteTitle }) => {
               Contact
             </Nav.Link>
             <Nav.Link href="https://www.instagram.com/socialmatt7/">
-              <i class="bi bi-instagram"></i>
+              <i className="bi bi-instagram"></i>
             </Nav.Link>
             <Nav.Link href="https://www.facebook.com/MattHoffmanPhoto">
-              <i class="bi bi-facebook"></i>
+              <i className="bi bi-facebook"></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
