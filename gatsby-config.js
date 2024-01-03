@@ -18,8 +18,9 @@ module.exports = {
   // flags: {
   //   DEV_SSR: true
   // },
-  // pathPrefix is needed when not using custom domain
-  pathPrefix: "/new-photo-site",
+  // pathPrefix is needed when not using custom domain but
+  // needs to be removed for custom url; i.e. matthoffmanphoto.com
+  // pathPrefix: "/new-photo-site",
   plugins: [
     `gatsby-plugin-image`,
     {
