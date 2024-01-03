@@ -32,11 +32,17 @@ const Footer = () => {
           </a>
         </Col>
         <Col className="">
-          <a href="https://www.faa.gov/uas/commercial_operators"><StaticImage
-            src="../images/faa_drone_logo.svg"
-            width={160}
-            alt="faa logo"
-          /></a>
+          <a
+            href="https://www.faa.gov/uas/commercial_operators"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <StaticImage
+              src="../images/faa_drone_logo.svg"
+              width={160}
+              alt="faa logo"
+            />
+          </a>
         </Col>
       </Row>
     </Container>
