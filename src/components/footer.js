@@ -32,11 +32,11 @@ const Footer = () => {
           </a>
         </Col>
         <Col className="">
-          <StaticImage
+          <a href="https://www.faa.gov/uas/commercial_operators"><StaticImage
             src="../images/faa_drone_logo.svg"
             width={160}
             alt="faa logo"
-          />
+          /></a>
         </Col>
       </Row>
     </Container>
