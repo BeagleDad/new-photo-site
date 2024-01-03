@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => {
       <Container className="me-4">
         <Navbar.Brand as={Link} to="/" className="">
           <svg
-          className="logo-svg"
+            className="logo-svg"
             viewBox="0 0 470 137.81299"
             // height="137.81299mm"
             // width="450.81717mm"
@@ -249,8 +249,15 @@ const Header = ({ siteTitle }) => {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
+            <Nav.Link href="https://www.instagram.com/socialmatt7/">
+              <i class="bi bi-instagram"></i>
+            </Nav.Link>
+            <Nav.Link href="https://www.facebook.com/MattHoffmanPhoto">
+              <i class="bi bi-facebook"></i>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+
         <Navbar.Text>
           <ThemeSwitcher />
         </Navbar.Text>
