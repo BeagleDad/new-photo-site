@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Container from "react-bootstrap/Container"
+
 // import Button from "react-bootstrap/Button"
 // import Form from "react-bootstrap/Form"
 // import Col from "react-bootstrap/Col"
@@ -10,24 +12,30 @@ const contact = () => {
   return (
     <Layout>
       <h2 className="text-center">Contact</h2>
-      <p>
-        Thank you for your interest. I look forward to helping you with
-        marketing your next property listing. Please contact me to setup a photo
-        shoot or with any questions you may have. You can contact me directly
-        via email, phone, or text.
-      </p>
-      <a
-        href="mailto: matthoffmanphoto@gmail.com"
-        className="text-decoration-none"
-      >
-        <i className="bi bi-envelope pe-3"></i>matthoffmanphoto@gmail.com
-      </a>
-      <div>
-        <i className="bi bi-telephone  pe-3"></i>928-550-8604
-      </div>
-      <a href="https://matthoffmanphoto.com/" className="text-decoration-none">
-        matthoffmanphoto.com
-      </a>
+      <Container className="w-75">
+        <p>
+          Thank you for your interest. I look forward to helping you with
+          marketing your next property listing. Please contact me to setup a
+          photo shoot or with any questions you may have. You can contact me
+          directly via email, phone, or text.
+        </p>
+        <i className="bi bi-envelope pe-3"></i>
+        <a
+          href="mailto: matthoffmanphoto@gmail.com"
+          className="text-decoration-none"
+        >
+          matthoffmanphoto@gmail.com
+        </a>
+        <div>
+          <i className="bi bi-telephone  pe-3"></i>928-550-8604
+        </div>
+        <a
+          href="https://matthoffmanphoto.com/"
+          className="text-decoration-none"
+        >
+          matthoffmanphoto.com
+        </a>
+      </Container>
 
       {/* <h5 className="mt-5">Email Form</h5>
       <Form>
