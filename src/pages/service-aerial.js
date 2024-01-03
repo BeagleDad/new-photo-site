@@ -11,8 +11,7 @@ const serviceAerial = () => {
       <h2 className="text-center">Aerial Services</h2>
       <p className="w-75 m-auto">
         I am an FAA Part 107 Certified Remote Pilot. I can offer both aerial
-        photos and video of your properties. Aerial photos can include property
-        lines showing the extent of the land included in the sale.
+        photos and video of your properties.
       </p>
       <div className="text-center m-3">
         <StaticImage
@@ -23,22 +22,18 @@ const serviceAerial = () => {
       </div>
       <Link to="/portfolio-aerial">
         <h4>Aerial Photos</h4>
-      </Link>
-      <p>
-        Aerial photographs give your listings a unique perspective by providing
-        a very attractive and appealing view of the property while showing the
-        surrounding area and how the property fits in with it. The property can
-        be shown from multiple angles and directions. The photos can also
-        include property outlines showing the extent of the land.
-      </p>
-      <Link to="/portfolio-aerial">
-        {/* <h4>Aerial Photo</h4> */}
         <StaticImage
           src="../images/photos/aerial/DJI_0031_3000x2250.jpg"
           alt="Luxury Home Aerial Photo"
           width={420}
         />
       </Link>
+      <p>
+        Aerial photographs give your listings a unique perspective by providing
+        a very attractive and appealing view of the property while showing the
+        surrounding area and how the property fits in with it. The property can
+        be shown from multiple angles and directions.
+      </p>
       <hr />
       {/* <p className="me-5">
         Aerial Photo of a Luxury Home showing a view you won't get from the
@@ -50,11 +45,12 @@ const serviceAerial = () => {
           src="../images/photos/aerial/DJI_0079_PROP_LINES.jpg"
           alt="Property Line Aerial Photo"
           width={420}
-          />
+        />
       </Link>
-      {/* <p className="me-5">
-        Aerial Photo with added property lines showing extent of the parcel.
-      </p> */}
+      <p className="me-5">
+        Aerial Photos can also include property outlines showing the extent of
+        the property.
+      </p>
       <hr />
       <h3>Aerial Videos</h3>
       <p>
