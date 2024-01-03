@@ -40,8 +40,9 @@ export const query = graphql`
     allFile(
       filter: {
         relativeDirectory: { eq: "photos/aerial" }
-        ext: { regex: "/(jpg)|(jpeg)/" }
+        ext: { regex: "/(jpg)|(jpeg)/i" }
       }
+      sort: {modifiedTime: ASC}
     ) {
       edges {
         node {
