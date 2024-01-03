@@ -11,17 +11,23 @@ const contact = () => {
     <Layout>
       <h2 className="text-center">Contact</h2>
       <p>
-        Thank you for your interest. I look forward to helping you with marketing
-        your next property listing. Please contact me to setup a photo shoot or
-        with any questions you may have. You can contact me directly via email,
-        phone, or text.
+        Thank you for your interest. I look forward to helping you with
+        marketing your next property listing. Please contact me to setup a photo
+        shoot or with any questions you may have. You can contact me directly
+        via email, phone, or text.
       </p>
-      <div>
+      <a
+        href="mailto: matthoffmanphoto@gmail.com"
+        className="text-decoration-none"
+      >
         <i className="bi bi-envelope pe-3"></i>matthoffmanphoto@gmail.com
-      </div>
+      </a>
       <div>
         <i className="bi bi-telephone  pe-3"></i>928-550-8604
       </div>
+      <a href="https://matthoffmanphoto.com/" className="text-decoration-none">
+        matthoffmanphoto.com
+      </a>
 
       {/* <h5 className="mt-5">Email Form</h5>
       <Form>
