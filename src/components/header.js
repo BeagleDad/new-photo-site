@@ -249,10 +249,18 @@ const Header = ({ siteTitle }) => {
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
-            <Nav.Link href="https://www.instagram.com/socialmatt7/">
+            <Nav.Link
+              href="https://www.instagram.com/socialmatt7/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-instagram"></i>
             </Nav.Link>
-            <Nav.Link href="https://www.facebook.com/MattHoffmanPhoto">
+            <Nav.Link
+              href="https://www.facebook.com/MattHoffmanPhoto"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bi bi-facebook"></i>
             </Nav.Link>
           </Nav>
