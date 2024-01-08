@@ -23,6 +23,7 @@ const portfolioInterior = ({ data }) => {
       </p>
       <Gallery
         reactModalStyle={"z-index:100"}
+        imgClass="gallery-img"
         images={images}
         onClose={onClose}
         colWidth={100}

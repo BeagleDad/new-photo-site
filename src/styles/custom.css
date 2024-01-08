@@ -114,3 +114,8 @@
   padding-bottom: 10%;
   /* height: calc(100vh - 65px) !important; */
 }
+
+/* This is passed to the thumbnails in the gallery and makes the cursor into a pointer */
+.gallery-img {
+  cursor: pointer;
+}
