@@ -14,6 +14,15 @@ const Footer = () => {
             <Link to="/" className="text-muted text-decoration-none">
               &copy; {new Date().getFullYear()} Matt Hoffman Photography
             </Link>
+            <div>
+              <a
+                href="mailto: matthoffmanphoto@gmail.com"
+                className="text-decoration-none"
+              >
+                matthoffmanphoto@gmail.com
+              </a>
+              <div>928-550-8604</div>
+            </div>
           </div>
         </Col>
         <Col className="text-muted">
@@ -44,6 +53,7 @@ const Footer = () => {
             />
           </a>
         </Col>
+          <div className="fs-6 text-secondary text-sm-center">Serving Prescott, Prescott Valley, Chino Valley, and Dewey-Humboldt</div>
       </Row>
     </Container>
   )

@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Matt Hoffman Photography`,
-    description: `Beautiful, professional photographs for marketing real estate. Serving Prescott, Prescott Valley, and surrounding area.`,
+    description: `Beautiful, professional photographs for marketing real estate. Serving Prescott, Prescott Valley, Chino Valley, Dewey-Humboldt, and surrounding area.`,
     author: `@matthoffman`,
     siteUrl: `https://matthoffmanphoto.com/`,
   },
