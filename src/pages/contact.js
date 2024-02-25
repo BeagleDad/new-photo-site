@@ -13,12 +13,14 @@ const contact = () => {
     <Layout>
       <h2 className="text-center">Contact</h2>
       <Container className="w-75">
+        <p>Thank you for your interest.</p>
         <p>
-          Thank you for your interest. I look forward to helping you with
-          marketing your next property listing. Please contact me to setup a
-          photo shoot or with any questions you may have. You can contact me
-          directly via email, phone, or text.
+          I cover the quad-city area of Prescott, Prescott Valley, Chino Valley,
+          and Dewey Humboldt. I look forward to helping you with marketing your
+          next property listing. Please contact me to setup a photo shoot or
+          with any questions you may have.
         </p>
+        <p>You can contact me directly via email, phone, or text.</p>
         <i className="bi bi-envelope pe-3"></i>
         <a
           href="mailto: matthoffmanphoto@gmail.com"

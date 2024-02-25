@@ -15,11 +15,11 @@ const about = () => {
       />
       <p>
         I am a talented and creative photographer dedicated to using my skills
-        to provide high quality images for the Real Estate Market. I strive to
-        capture, not just the visual appearance of a building, but something of
-        the intent of the architect and feeling of the structure or interior. I
-        am easy to work with and provide great support for marketing Real Estate
-        Properties.
+        to provide high quality images for the Real Estate Market. I love the
+        Prescott area and strive to capture, not just the visual appearance of a
+        building, but something of the intent of the architect and feeling of
+        the structure or interior. I am easy to work with and provide great
+        support for marketing Real Estate Properties.
       </p>
       <p>
         My journey into photography started at a very young age when my father
