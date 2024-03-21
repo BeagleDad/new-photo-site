@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Container from "react-bootstrap/Container"
@@ -11,15 +12,20 @@ import Container from "react-bootstrap/Container"
 const contact = () => {
   return (
     <Layout>
-      <h2 className="text-center">Contact</h2>
+      <h2 className="text-center">Contact Me</h2>
       <Container className="w-75">
-        <p>Thank you for your interest.</p>
         <p>
-          I cover the quad-city area of Prescott, Prescott Valley, Chino Valley,
-          and Dewey Humboldt. I look forward to helping you with marketing your
-          next property listing. Please contact me to setup a photo shoot or
-          with any questions you may have.
+          Thank you for your interest. I cover the quad-city area of Prescott,
+          Prescott Valley, Chino Valley, and Dewey Humboldt. I look forward to
+          helping you with marketing your next property listing. Please contact
+          me to setup a photo shoot or with any questions you may have.
         </p>
+        <StaticImage
+                src="../images/supra-logo-white.png"
+                alt="Supra logo"
+                width={60}
+              />
+        <p>Please remember that I am <strong>Supra Key certified</strong> so I can access your listing property via the lockbox, and shoot the photos, so you don't have to be there!</p>
         <p>You can contact me directly via email, phone, or text.</p>
         <i className="bi bi-envelope pe-3"></i>
         <a

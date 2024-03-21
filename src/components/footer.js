@@ -3,9 +3,21 @@ import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Button from "react-bootstrap/Button"
 import Container from "react-bootstrap/Container"
+import OverlayTrigger from "react-bootstrap/OverlayTrigger"
+import Popover from "react-bootstrap/Popover"
 
 const Footer = () => {
+  const popover = (
+    <Popover id="popover-basic">
+      <Popover.Header as="h3">Supra Certified</Popover.Header>
+      <Popover.Body>
+        I am <strong>Supra Certified</strong> so I can access your properties via the lockbox, and take the photos, so you don't have to be there!
+      </Popover.Body>
+    </Popover>
+  )
+
   return (
     <Container fluid className="fixed-bottom z-0">
       <Row className=" text-lg-center bg-body-tertiary flex-md-wrap py-2 border-top">
@@ -15,6 +27,17 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} Matt Hoffman Photography
             </Link>
           </div>
+        </Col>
+        <Col>
+          <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+            <Button variant="secondary">
+              <StaticImage
+                src="../images/supra-logo-white.png"
+                alt="Supra logo"
+                width={70}
+              />
+            </Button>
+          </OverlayTrigger>
         </Col>
         <Col className="text-muted">
           <a
