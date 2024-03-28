@@ -44,6 +44,11 @@ const prep = () => {
             Staging accessories need to be in place as well.
           </li>{" "}
           <li>
+            <b>Clean Carpets:</b> Carpets should be cleaned and vacuumed before
+            I arrive, especially if the house is empty. Soiled and uneven
+            carpets show up very strongly in photographs and are very difficult to retouch later.
+          </li>
+          <li>
             <b>Secure or remove pets:</b> I love pets but we can’t have them
             around for your photoshoot. Dogs must be secured or off the property
             to ensure the safety of myself and my equipment. MLS rules also
@@ -154,8 +159,9 @@ const prep = () => {
             items from entryways.
           </li>
           <li>
-            <b>Open blinds with views</b>: The indoor photos can clearly show outdoor
-            views if they are good. If the views are unappealing they can be de-emphasize.
+            <b>Open blinds with views</b>: The indoor photos can clearly show
+            outdoor views if they are good. If the views are unappealing they
+            can be de-emphasize.
           </li>
           <li>
             <b>Turn on lights</b>: Before I arrive, please make sure all
@@ -182,8 +188,8 @@ const prep = () => {
           </li>
           <li>
             <b>Turn on spas and remove covers</b>: If you have a spa, remove the
-            cover, and turn it on before I arrive. Turn on the lights in the spa as
-            well.
+            cover, and turn it on before I arrive. Turn on the lights in the spa
+            as well.
           </li>
           <li>
             <b>Turn on pool lights</b>: If you have a pool, turn on the pool
