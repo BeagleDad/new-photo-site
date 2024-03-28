@@ -46,7 +46,8 @@ const prep = () => {
           <li>
             <b>Clean Carpets:</b> Carpets should be cleaned and vacuumed before
             I arrive, especially if the house is empty. Soiled and uneven
-            carpets show up very strongly in photographs and are very difficult to retouch later.
+            carpets show up very strongly in photographs and are very difficult
+            to retouch later.
           </li>
           <li>
             <b>Secure or remove pets:</b> I love pets but we can’t have them
@@ -161,7 +162,7 @@ const prep = () => {
           <li>
             <b>Open blinds with views</b>: The indoor photos can clearly show
             outdoor views if they are good. If the views are unappealing they
-            can be de-emphasize.
+            can be de-emphasized.
           </li>
           <li>
             <b>Turn on lights</b>: Before I arrive, please make sure all
