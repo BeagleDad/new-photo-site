@@ -7,10 +7,15 @@ import { Link } from "gatsby"
 const serviceProperty = () => {
   return (
     <Layout>
-      <h2 className="text-center">Property Services</h2>
+      <h2 className="text-center">Property Photos</h2>
       <p className="w-75 m-auto mb-3">
         Property services include both interior and exterior photos, and can
         include Twilight photos of the exterior.
+        <p>
+          Don't forget I am <strong>Supra eKEY® Certified</strong> so I can access
+          your properties via the lockbox, and take the photos, so you don't
+          have to be there!
+        </p>
       </p>
       <Link to="/portfolio-interior">
         <h4>Interior Photos</h4>
@@ -41,10 +46,10 @@ const serviceProperty = () => {
         order to make sure to capture all the amenities of the property.
       </p>
       <hr />
-      <Link to="/portfolio-exterior">
+      <Link to="/portfolio-twilight">
         <h4>Twilight Photos</h4>
         <StaticImage
-          src="../images/photos/exterior/DSC_1744_4240x2821.jpg"
+          src="../images/photos/twilight/D85_5516_mls_01.jpg"
           alt="Twilight Photo"
           width={420}
         />

@@ -20,12 +20,12 @@ const contact = () => {
           helping you with marketing your next property listing. Please contact
           me to setup a photo shoot or with any questions you may have.
         </p>
-        <StaticImage
+        <p><StaticImage
                 src="../images/supra-logo-white.png"
                 alt="Supra logo"
                 width={60}
-              />
-        <p>Please remember that I am <strong>Supra Key certified</strong> so I can access your listing property via the lockbox, and shoot the photos, so you don't have to be there!</p>
+              />{" "}eKEY®</p>
+        <p>Please remember that I am <strong>Supra eKEY® Certified</strong> so I can access your listing property via the lockbox, and shoot the photos, so you don't have to be there!</p>
         <p>You can contact me directly via email, phone, or text.</p>
         <i className="bi bi-envelope pe-3"></i>
         <a

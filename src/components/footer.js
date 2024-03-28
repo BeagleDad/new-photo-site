@@ -11,7 +11,7 @@ import Popover from "react-bootstrap/Popover"
 const Footer = () => {
   const popover = (
     <Popover id="popover-basic">
-      <Popover.Header as="h3">Supra Certified</Popover.Header>
+      <Popover.Header as="h3">Supra eKEY Certified</Popover.Header>
       <Popover.Body>
         I am <strong>Supra Certified</strong> so I can access your properties via the lockbox, and take the photos, so you don't have to be there!
       </Popover.Body>

@@ -71,6 +71,22 @@ const IndexPage = () => (
       <Carousel.Item>
         <StaticImage
           className="carousel-image"
+          src="../images/photos/twilight/D85_5516_mls_01.jpg"
+          placeholder="blurred"
+          alt=""
+          transformOptions={{ cropFocus: "center", fit: "cover" }}
+        />
+        <Carousel.Caption
+          as={Link}
+          to="/portfolio-twilight"
+          className="link-primary"
+        >
+          <h5>Twilight Photos</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <StaticImage
+          className="carousel-image"
           src="../images/photos/D85_4753_VS_small.jpg"
           transformOptions={{ cropFocus: "center", fit: "cover" }}
           placeholder="blurred"
