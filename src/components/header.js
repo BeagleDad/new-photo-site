@@ -234,6 +234,9 @@ const Header = ({ siteTitle }) => {
               <NavDropdown.Item as={Link} to="/service-aerial">
                 Aerial Photos
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/service-virtual-tours">
+                Virtual Tours
+              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/service-staging">
                 Virtual Staging
               </NavDropdown.Item>
