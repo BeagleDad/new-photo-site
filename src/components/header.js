@@ -235,7 +235,7 @@ const Header = ({ siteTitle }) => {
                 Aerial Photos
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/service-virtual-tours">
-                Virtual Tours
+                3D Tours
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/service-staging">
                 Virtual Staging

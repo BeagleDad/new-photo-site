@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 function virtualTours() {
   return (
     <Layout>
-      <h2 className="text-center">Virtual Tours</h2>
+      <h2 className="text-center">3D Tours</h2>
       <p className="w-75 m-auto mb-5">
         Experience the future of property viewing with a Zillow 3D Home Tour.
         Immerse yourself in a virtual environment that allows for detailed
@@ -34,7 +34,7 @@ function virtualTours() {
 export const Head = () => {
   return (
     <>
-      <Seo title="Virtual-Tours" />
+      <Seo title="3D Tours" />
     </>
   )
 }
