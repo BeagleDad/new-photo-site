@@ -12,17 +12,25 @@ function virtualTours() {
         exploration of every room, providing a convenient and realistic way to
         view properties. With stunning 3D photos, you'll get a true sense of the
         space before you even step foot inside. Start your virtual property
-        journey with a Zillow 3D Home Tour today! Below is a sample of a recent
-        tour I did of a home in Prescott. (Click on the{" "}
+        journey with a Zillow 3D Home Tour today! Below are few samples of
+        recent tours I have done. (Click on the{" "}
         <i class="bi bi-arrows-fullscreen"></i> icon to make it full screen for
         greatest impact):
       </p>
-      <section className="text-center">
+      <h2 className="text-center mt-5">Luxury Home</h2>
+      <section className="iframe-container">
         <iframe
           src="https://www.zillow.com/view-imx/17b5e2f2-0c34-448e-b7fd-5882cff6a237?setAttribution=mls&wl=true&initialViewType=pano&utm_source=dashboard"
-          title="Zillow 3D Home Tour"
-          height="360"
-          width="640"
+          title="Zillow 3D Home Tour - Fawn Hill Dr"
+          frameborder="0"
+          allowfullscreen="true"
+        ></iframe>
+      </section>
+        <h2 className="text-center mt-5">Air BnB</h2>
+      <section className="iframe-container">
+        <iframe
+          title="Zillow 3D Home Tour - Ash St"
+          src="https://www.zillow.com/view-imx/9dadc8e6-2b0b-4d6d-a4f7-bbacf0214413?setAttribution=mls&wl=true&initialViewType=pano&utm_source=dashboard"
           frameborder="0"
           allowfullscreen="true"
         ></iframe>
