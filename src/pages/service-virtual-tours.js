@@ -12,8 +12,8 @@ function virtualTours() {
         exploration of every room, providing a convenient and realistic way to
         view properties. With stunning 3D photos, you'll get a true sense of the
         space before you even step foot inside. Start your virtual property
-        journey with a Zillow 3D Home Tour today! Below are few samples of
-        recent tours I have done. (Click on the{" "}
+        journey with a Zillow 3D Home Tour today! Below is an example of a
+        recent tour I have done. (Click on the{" "}
         <i class="bi bi-arrows-fullscreen"></i> icon to make it full screen for
         greatest impact):
       </p>
@@ -26,7 +26,8 @@ function virtualTours() {
           allowfullscreen="true"
         ></iframe>
       </section>
-        <h2 className="text-center mt-5">Air BnB</h2>
+      <h2 className="text-center mt-5">Air BnB</h2>
+      {/* Removed because this has crappy photos from earlier listing that I don't want to represent me.
       <section className="iframe-container">
         <iframe
           title="Zillow 3D Home Tour - Ash St"
@@ -34,7 +35,7 @@ function virtualTours() {
           frameborder="0"
           allowfullscreen="true"
         ></iframe>
-      </section>
+      </section> */}
     </Layout>
   )
 }
