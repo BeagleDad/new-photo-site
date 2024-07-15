@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../components/seo"
+import Image from 'react-bootstrap/Image';
 
 const about = () => {
   return (
@@ -50,6 +51,13 @@ const about = () => {
         came up as a way to combine them in a way to provide a service to help
         people. Thus was born Matt Hoffman Photography.
       </p>
+      <h4 className="insurance">I carry $1 million in liability insurance</h4>
+      <a href="http://www.fullframeinsurance.com" target="_blank" rel="noreferrer">
+        <Image
+          src="https://app.fullframeinsurance.com//media/site_seals/0001/03/459b160cda6b24b13ba0a0a6d64080802fc7d526.png"
+          alt="Full Frame Insurance Seal" fluid
+        />
+      </a>
     </Layout>
   )
 }
