@@ -26,16 +26,6 @@ function virtualTours() {
           allowfullscreen="true"
         ></iframe>
       </section>
-      <h2 className="text-center mt-5">Air BnB</h2>
-      {/* Removed because this has crappy photos from earlier listing that I don't want to represent me.
-      <section className="iframe-container">
-        <iframe
-          title="Zillow 3D Home Tour - Ash St"
-          src="https://www.zillow.com/view-imx/9dadc8e6-2b0b-4d6d-a4f7-bbacf0214413?setAttribution=mls&wl=true&initialViewType=pano&utm_source=dashboard"
-          frameborder="0"
-          allowfullscreen="true"
-        ></iframe>
-      </section> */}
     </Layout>
   )
 }
