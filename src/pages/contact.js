@@ -1,8 +1,10 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Container from "react-bootstrap/Container"
+import Image from 'react-bootstrap/Image';
+
 
 // import Button from "react-bootstrap/Button"
 // import Form from "react-bootstrap/Form"
@@ -20,13 +22,13 @@ const contact = () => {
           helping you with marketing your next property listing. Please contact
           me to setup a photo shoot or with any questions you may have.
         </p>
-        <p><StaticImage
+        {/* <p><StaticImage
                 src="../images/supra-logo-white.png"
                 alt="Supra logo"
                 width={60}
               />{" "}eKEY®</p>
         <p>Please remember that I am <strong>Supra eKEY® Certified</strong> so I can access your listing property via the lockbox, and shoot the photos, so you don't have to be there!</p>
-        <p>You can contact me directly via email, phone, or text.</p>
+        <p>You can contact me directly via email, phone, or text.</p> */}
         <i className="bi bi-envelope pe-3"></i>
         <a
           href="mailto: matthoffmanphoto@gmail.com"
@@ -42,6 +44,18 @@ const contact = () => {
           className="text-decoration-none"
         >
           matthoffmanphoto.com
+        </a>
+        <h4 className="insurance mt-5">I carry $1 million in liability insurance</h4>
+        <a
+          href="http://www.fullframeinsurance.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Image
+            src="https://app.fullframeinsurance.com//media/site_seals/0001/03/459b160cda6b24b13ba0a0a6d64080802fc7d526.png"
+            alt="Full Frame Insurance Seal"
+            fluid
+          />
         </a>
       </Container>
 

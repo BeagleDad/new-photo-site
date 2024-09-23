@@ -11,11 +11,11 @@ const serviceProperty = () => {
       <p className="w-75 m-auto mb-3">
         Property services include both interior and exterior photos, and can
         include Twilight photos of the exterior.
-        <p>
+        {/* <p>
           Don't forget I am <strong>Supra eKEY® Certified</strong> so I can access
           your properties via the lockbox, and take the photos, so you don't
           have to be there!
-        </p>
+        </p> */}
       </p>
       <Link to="/portfolio-interior">
         <h4>Interior Photos</h4>
