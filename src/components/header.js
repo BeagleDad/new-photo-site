@@ -256,18 +256,18 @@ const Header = ({ siteTitle }) => {
               Contact
             </Nav.Link>
             <Nav.Link
-              href="https://www.instagram.com/socialmatt7/"
+              href="https://www.instagram.com/matthoffmanphoto"
               target="_blank"
               rel="noreferrer"
             >
               <i className="bi bi-instagram"></i>
             </Nav.Link>
             <Nav.Link
-              href="https://www.facebook.com/MattHoffmanPhoto"
+              href="https://www.yelp.com/biz/matt-hoffman-photography-prescott-valley"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bi bi-facebook"></i>
+              <i class="bi bi-yelp"></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
