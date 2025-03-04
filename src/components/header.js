@@ -248,6 +248,9 @@ const Header = ({ siteTitle }) => {
               <NavDropdown.Item as={Link} to="/info-terms">
                 <i className="bi bi-pen pe-2"></i>Terms of Service
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/prices">
+                <i class="bi bi-currency-dollar pe-2"></i>Price List
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/about">
               About

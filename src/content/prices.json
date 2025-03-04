@@ -1,0 +1,70 @@
+{
+  "content": [
+    {
+      "item": "Standard Shoot",
+      "price": 200,
+      "unit":"",
+      "description": "Homes up to 2000 sq ft, includes 15-20 ﬁnished images of interior and exterior. This shoot will take approximately 2 hours."
+    },
+    {
+      "item": "Standard+ Shoot",
+      "price": 300,
+      "unit":"",
+      "description": "Homes from 2000 to 3000 sq ft, includes 20-25 ﬁnished images of interior and exterior. This shoot will take approximately 3 hours."
+    },
+    {
+      "item": "Premium shoot",
+      "price": 400,
+      "unit":"",
+      "description": "Homes from 3000 to 4000 sq ft, includes 25-30 ﬁnished images of interior and exterior. This shoot will take approximately 3-4 hours."
+    },
+    {
+      "item": "Premium+ shoot",
+      "price": 250,
+      "unit":"per hour",
+      "description": "Homes greater than 4000 sq ft"
+    },
+    {
+      "item": "Aerial Drone Photography",
+      "price": 150,
+      "unit":" or $100 with property shoot",
+      "description": "Aerial images of home from all compass points at low and high altitude. Some shots can include property boundary outlines, if desired. This includes 12 ﬁnished photos."
+    },
+    {
+      "item": "Aerial Drone Video",
+      "price": 200,
+      "unit":"",
+      "description": "Aerial video of home from various angles and altitude. Video will be approximately 2 minutes in length with music and titles."
+    },
+    {
+      "item": "Twilight shoot",
+      "price": 200,
+      "unit":"",
+      "description": "Twilight shots are done between sunset and approximately 40 minutes after sunset. All lights in the home should be turned on and there may be added lighting. Twilight shots give a dramatic and elegant look to the home."
+    },
+    {
+      "item": "Parcel Shoot",
+      "price": 200,
+      "unit":"",
+      "description": "Empty parcel shoot, includes 8 aerial images, four with property outlines, and 8-10 ground photos highlighting features of the property."
+    },
+    {
+      "item": "Zillow 3D Home Tour",
+      "price": 100,
+      "unit":"-$150 depending on size of home",
+      "description": "Listings with 3D Home tours and interactive ﬂoor plans are made to be explored. With every room you capture, you help people understand the layout and imagine what it would be like to call it home."
+    },
+    {
+      "item": "Virtual Staging",
+      "price": 35,
+      "unit":"per image",
+      "description": "Virtual staging can make an empty home look beautiful and inviting, drawing much more interest than an empty home, at a mere fraction of the cost of actual staging. Choose as many images as you want to stage. I will stage them in the style you desire, with an additional rendering if changes are needed."
+    },
+    {
+      "item": "Additional Image editing",
+      "price": 60,
+      "unit":"per hour",
+      "description": "Image editing allows items like cars and garbage cans to be removed from driveways and make other improvements to photos. I do not change any of the permanent physical characteristics of the home with image editing."
+    }
+  ]
+}
