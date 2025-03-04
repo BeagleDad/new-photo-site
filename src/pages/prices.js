@@ -11,7 +11,7 @@ const prices = () => {
         return (
           <div>
               <h5>
-              <span className="mhp-bg-blue me-2 p-1">{data.item}:</span> ${data.price} {data.unit}
+              <span className="text-light mhp-bg-blue me-2 p-1">{data.item}:</span> ${data.price} {data.unit}
               </h5>
             <p className="text-body-secondary">{data.description}</p>
           </div>

@@ -7,7 +7,7 @@
       "description": "Homes up to 2000 sq ft, includes 15-20 ﬁnished images of interior and exterior. This shoot will take approximately 2 hours."
     },
     {
-      "item": "Standard+ Shoot",
+      "item": "Advanced Shoot",
       "price": 300,
       "unit":"",
       "description": "Homes from 2000 to 3000 sq ft, includes 20-25 ﬁnished images of interior and exterior. This shoot will take approximately 3 hours."
@@ -19,7 +19,7 @@
       "description": "Homes from 3000 to 4000 sq ft, includes 25-30 ﬁnished images of interior and exterior. This shoot will take approximately 3-4 hours."
     },
     {
-      "item": "Premium+ shoot",
+      "item": "Luxury shoot",
       "price": 250,
       "unit":"per hour",
       "description": "Homes greater than 4000 sq ft"
