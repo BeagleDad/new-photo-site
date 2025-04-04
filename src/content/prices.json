@@ -20,7 +20,7 @@
     },
     {
       "item": "Luxury shoot",
-      "price": 250,
+      "price": 200,
       "unit":"per hour",
       "description": "Homes greater than 4000 sq ft"
     },
@@ -51,7 +51,7 @@
     {
       "item": "Zillow 3D Home Tour",
       "price": 100,
-      "unit":"-$150 depending on size of home",
+      "unit":" for homes less than 2000 sq ft / $150 for homes greater than 2000 sq ft",
       "description": "Listings with 3D Home tours and interactive ﬂoor plans are made to be explored. With every room you capture, you help people understand the layout and imagine what it would be like to call it home."
     },
     {
